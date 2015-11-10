@@ -1,0 +1,115 @@
+MULTIVARIATE_POISSON_DISTRIBUTION ;  4 VARIABLES
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+4 VARIABLES
+MULTIVARIATE_POISSON_DISTRIBUTION   INF_BOUND : 2    ; PARAMETER : 0.5   0.5   0.4   0.2   0.3    ;    
+VARIABLE: 0
+POISSON   INF_BOUND : 2   PARAMETER : 1   
+mean: 2.99693   variance: 0.984653   standard deviation: 0.992297
+coefficient of skewness: 0.947978   coefficient of kurtosis: 0.684894
+
+VARIABLE: 1
+POISSON   INF_BOUND : 2   PARAMETER : 0.9   
+mean: 2.8982   variance: 0.890811   standard deviation: 0.943828
+coefficient of skewness: 1.01659   coefficient of kurtosis: 0.86563
+
+VARIABLE: 2
+POISSON   INF_BOUND : 2   PARAMETER : 0.7   
+mean: 2.69652   variance: 0.685023   standard deviation: 0.827661
+coefficient of skewness: 1.12516   coefficient of kurtosis: 0.970942
+
+VARIABLE: 3
+POISSON   INF_BOUND : 2   PARAMETER : 0.8   
+mean: 2.79902   variance: 0.794894   standard deviation: 0.891568
+coefficient of skewness: 1.09245   coefficient of kurtosis: 1.06799
+
+simulation: 
+3   4   3   4    ; (0.00897627)
+2   3   2   2    ; (0.0598274)
+3   2   2   3    ; (0.0224353)
+5   5   4   4    ; (0.00748367)
+2   2   2   2    ; (0.149569)
+2   2   5   2    ; (7.97699e-07)
+3   2   2   2    ; (0.0747843)
+2   4   2   3    ; (0.00143586)
+3   2   3   2    ; (0.0149569)
+3   3   2   3    ; (0.00897412)
+Log likelihood of true parameter: -4450.39
+Histogram: 
+Number of different values: 125
+Number of elements: 1000
+Offset: 2
+Sums - offset: 986 880 687 792 
+Marginals: 
+
+sample size: 1000
+mean: 2.986   variance: 0.968773   standard deviation: 0.984263
+offset : 2   maximum : 375
+frequencies (9 values) : 0 0 367 375 187 51 17 2 1 
+
+sample size: 1000
+mean: 2.88   variance: 0.846446   standard deviation: 0.920025
+offset : 2   maximum : 403
+frequencies (7 values) : 0 0 403 387 151 45 14 
+
+sample size: 1000
+mean: 2.687   variance: 0.721753   standard deviation: 0.84956
+offset : 2   maximum : 510
+frequencies (8 values) : 0 0 510 339 113 32 4 2 
+
+sample size: 1000
+mean: 2.792   variance: 0.767504   standard deviation: 0.876073
+offset : 2   maximum : 445
+frequencies (9 values) : 0 0 445 368 147 33 5 1 1 
+Estimate distribution: 
+MULTIVARIATE_POISSON_DISTRIBUTION ;  4 VARIABLES
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+4 VARIABLES
+MULTIVARIATE_POISSON_DISTRIBUTION   INF_BOUND : 2    ; PARAMETER : 0.466696   0.519304   0.413304   0.220304   0.325304    ;    
+VARIABLE: 0
+POISSON   INF_BOUND : 2   PARAMETER : 0.986   
+mean: 2.98314   variance: 0.97166   standard deviation: 0.985728
+coefficient of skewness: 0.957239   coefficient of kurtosis: 0.709132
+
+VARIABLE: 1
+POISSON   INF_BOUND : 2   PARAMETER : 0.88   
+mean: 2.87839   variance: 0.871776   standard deviation: 0.93369
+coefficient of skewness: 1.0311   coefficient of kurtosis: 0.904136
+
+VARIABLE: 2
+POISSON   INF_BOUND : 2   PARAMETER : 0.687   
+mean: 2.68379   variance: 0.673144   standard deviation: 0.820454
+coefficient of skewness: 1.13955   coefficient of kurtosis: 1.01269
+
+VARIABLE: 3
+POISSON   INF_BOUND : 2   PARAMETER : 0.792   
+mean: 2.79107   variance: 0.787147   standard deviation: 0.887213
+coefficient of skewness: 1.09893   coefficient of kurtosis: 1.08537
+
+Estimate distribution: 
+MULTIVARIATE_POISSON_DISTRIBUTION ;  4 VARIABLES
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+4 VARIABLES
+MULTIVARIATE_POISSON_DISTRIBUTION   INF_BOUND : 2    ; PARAMETER : 0.496441   0.489559   0.383559   0.190559   0.295559    ;    
+VARIABLE: 0
+POISSON   INF_BOUND : 2   PARAMETER : 0.986   
+mean: 2.98314   variance: 0.97166   standard deviation: 0.985728
+coefficient of skewness: 0.957239   coefficient of kurtosis: 0.709132
+
+VARIABLE: 1
+POISSON   INF_BOUND : 2   PARAMETER : 0.88   
+mean: 2.87839   variance: 0.871776   standard deviation: 0.93369
+coefficient of skewness: 1.0311   coefficient of kurtosis: 0.904136
+
+VARIABLE: 2
+POISSON   INF_BOUND : 2   PARAMETER : 0.687   
+mean: 2.68379   variance: 0.673144   standard deviation: 0.820454
+coefficient of skewness: 1.13955   coefficient of kurtosis: 1.01269
+
+VARIABLE: 3
+POISSON   INF_BOUND : 2   PARAMETER : 0.792   
+mean: 2.79107   variance: 0.787147   standard deviation: 0.887213
+coefficient of skewness: 1.09893   coefficient of kurtosis: 1.08537
+
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+4 VARIABLES
+MULTIVARIATE_POISSON_DISTRIBUTION   INF_BOUND : 2    ; PARAMETER : 5   6   7   8.2   9    ;    

@@ -1,0 +1,45 @@
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; SUP_BOUND : 10   10   10    ; PARAMETER : 12    ;    PROBABILITY : 0.5   0.25   0.25    ; 
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; SUP_BOUND : 10   10   10    ; PARAMETER : 12    ;    PROBABILITY : 0.5   0.25   0.25    ; 
+Statiskit::Marginal::Multivariate::CountTable: 
+3 VARIABLES
+frequencies (11 values) : 
+value: 0	0	0	; frequency: 1
+value: 1	0	0	; frequency: 1
+value: 2	1	0	; frequency: 1
+value: 3	1	0	; frequency: 1
+value: 4	2	0	; frequency: 1
+value: 5	2	0	; frequency: 1
+value: 6	3	0	; frequency: 1
+value: 7	3	0	; frequency: 1
+value: 8	4	0	; frequency: 1
+value: 9	4	0	; frequency: 1
+value: 10	5	0	; frequency: 2
+
+FrequencyDistribution for components sum
+# frequency distribution - sample size: 12
+# mean: 7.91667   variance: 27.5379   standard deviation: 5.24765
+# coefficient of skewness: -0.0704055   coefficient of kurtosis: -1.43541
+# mean absolute deviation: 4.41667   coefficient of concentration: 0.364035
+# information: -28.4326 (-2.36938)
+
+#    | frequency distribution | cumulative distribution function
+ 0  1  #  0.0833333
+ 1  1  #   0.166667
+ 2  0  #   0.166667
+ 3  1  #       0.25
+ 4  1  #   0.333333
+ 5  0  #   0.333333
+ 6  1  #   0.416667
+ 7  1  #        0.5
+ 8  0  #        0.5
+ 9  1  #   0.583333
+10  1  #   0.666667
+11  0  #   0.666667
+12  1  #       0.75
+13  1  #   0.833333
+14  0  #   0.833333
+15  2  #          1

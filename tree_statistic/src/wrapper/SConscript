@@ -21,19 +21,49 @@ if lenv['compiler'] == 'mingw':
 
 py_dir = '../openalea/tree_statistic'
 
-lenv.AppendUnique(LIBS=['vptree_statistic'])
+lenv.AppendUnique(LIBS=['vptree_statistic','boost_graph'])
 
 # Build wrappers as shared libraries
 #sources = Split("""""")
 
 # hmt_sources = env.ALEAGlob('hmt/*.cpp')
+"""hmt_sources = Split("""
+"""export_hmt.cpp
+hmt_wrap.cpp
+"""
+""")"""
+
 hmt_sources = Split("""
 export_hmt.cpp
+export_mot.cpp
 hmt_wrap.cpp
 """)
 
+dmd_sources = Split("""
+export_dmdistributions.cpp
+dmdistributions_wrap.cpp
+""")
+
+ducd_sources = Split("""
+export_ducdistributions.cpp
+ducdistributions_wrap.cpp
+""")
+
+dmcd_sources = Split("""
+export_dmcdistributions.cpp
+dmcdistributions_wrap.cpp
+""")
+
+dgd_sources = Split("""
+export_dgdistributions.cpp
+dgdistributions_wrap.cpp
+""")
 
 wrap_errors = lenv.ALEAWrapper(py_dir, "_errors", ["errors.cpp"])
+lenv.ALEAWrapper(py_dir+'/dmdistributions', "_dmdistributions", ['dmdistributions/'+f for f in dmd_sources] )
+lenv.ALEAWrapper(py_dir+'/ducdistributions', "_ducdistributions", ['ducdistributions/'+f for f in ducd_sources] )
+lenv.ALEAWrapper(py_dir+'/dmcdistributions', "_dmcdistributions", ['dmcdistributions/'+f for f in dmcd_sources] )
+# lenv.ALEAWrapper(py_dir+'/dgdistributions', "_dgdistributions", ['dgdistributions/'+f for f in dgd_sources] )
 lenv.ALEAWrapper(py_dir+'/trees', "ctree", ["trees/ctree.cpp"])
 lenv.ALEAWrapper(py_dir+'/trees', "ctrees", ["trees/ctrees.cpp"])
 lenv.ALEAWrapper(py_dir+'/int_fl_containers', "int_fl_containers", ["int_fl_containers/int_fl_containers.cpp"])

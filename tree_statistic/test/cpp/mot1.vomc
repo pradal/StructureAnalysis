@@ -1,0 +1,11 @@
+MARKOV_CHAIN
+
+3 STATES
+
+INITIAL_PROBABILITIES
+0.451948   0.472727   0.0753247  
+
+TRANSITION_PROBABILITIES      # memory
+0.52004    0.166333   0.313627      0 #       terminal
+0.0833333  0.636905   0.279762      1 #       terminal
+0.340206   0.631443   0.0283505     2 #       terminal

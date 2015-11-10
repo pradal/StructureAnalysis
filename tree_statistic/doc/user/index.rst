@@ -16,3 +16,6 @@ An overview of the tree_statistic package and its functionalities can be found i
 .. toctree::
     :maxdepth: 1
 
+    tutorial_data_structures.rst
+    tutorial_models.rst
+

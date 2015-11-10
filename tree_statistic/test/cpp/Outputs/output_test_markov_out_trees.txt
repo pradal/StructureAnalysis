@@ -1,0 +1,2426 @@
+Build MarkovOutTree from pointers: 
+MARKOV_OUT_TREE
+
+3 STATES
+
+INITIAL_PROBABILITIES
+0.451948   0.472727  0.0753247
+
+1 ORDERED_CHILD
+
+1 VARIABLE_ORDER_MARKOV_CHAIN
+
+MARKOV_CHAIN
+
+3 STATES
+
+INITIAL_PROBABILITIES
+0.451948   0.472727   0.0753247  
+
+TRANSITION_PROBABILITIES      memory
+0.52004    0.166333   0.313627    0       terminal
+0.0833333  0.636905   0.279762    1       terminal
+0.340206   0.631443   0.0283505   2       terminal
+
+recurrent class: states 0 1 2
+
+memory tree
+
+|___0
+|___1
+|___2
+
+    0   1   2 
+
+transition tree
+
+0
+
+1
+
+2
+
+memory transition matrix
+
+0   0   1   2       terminal
+1   0   1   2       terminal
+2   0   1   2       terminal
+
+time up to the first occurrence of state 0 distribution
+mean: 3.74461   variance: 31.3331   standard deviation: 5.5976
+
+time up to the first occurrence of state 1 distribution
+mean: 1.77049   variance: 6.21069   standard deviation: 2.49213
+
+time up to the first occurrence of state 2 distribution
+mean: 3.13228   variance: 8.12067   standard deviation: 2.84968
+
+state 0 recurrence time distribution
+mean: 3.91221   variance: 25.9319   standard deviation: 5.09233
+
+state 1 recurrence time distribution
+mean: 1.92045   variance: 3.45624   standard deviation: 1.8591
+
+state 2 recurrence time distribution
+mean: 4.3249   variance: 8.17466   standard deviation: 2.85914
+
+state 0 sojourn time distribution
+mean: 2.07523   variance: 2.16633   standard deviation: 1.47184
+coefficient of variation: 0.709246
+
+state 1 sojourn time distribution
+mean: 2.74236   variance: 4.643   standard deviation: 2.15476
+coefficient of variation: 0.785733
+
+state 2 sojourn time distribution
+mean: 1.02757   variance: 0.0268089   standard deviation: 0.163734
+coefficient of variation: 0.159341
+
+number of runs of state 0 per length 20 sequence distribution
+mean: 2.70441   variance: 1.55448   standard deviation: 1.24679
+coefficient of skewness: 0.214432   coefficient of kurtosis: -0.11933
+
+number of runs of state 1 per length 20 sequence distribution
+mean: 4.01341   variance: 1.51206   standard deviation: 1.22966
+coefficient of skewness: 0.121204   coefficient of kurtosis: -0.104529
+
+number of runs of state 2 per length 20 sequence distribution
+mean: 4.37146   variance: 1.90644   standard deviation: 1.38074
+coefficient of skewness: -0.0125178   coefficient of kurtosis: -0.157489
+
+number of occurrences of state 0 per length 20 sequence distribution
+mean: 5.36053   variance: 8.73406   standard deviation: 2.95534
+coefficient of skewness: 0.477044   coefficient of kurtosis: -0.0339467
+
+number of occurrences of state 1 per length 20 sequence distribution
+mean: 10.1472   variance: 9.87632   standard deviation: 3.14266
+coefficient of skewness: -0.101939   coefficient of kurtosis: -0.289507
+
+number of occurrences of state 2 per length 20 sequence distribution
+mean: 4.49228   variance: 2.08045   standard deviation: 1.44238
+coefficient of skewness: 0.0258145   coefficient of kurtosis: -0.136985
+
+2 FACTOR GENERATION_PROCESSES
+
+1 CHILD GENERATION_PROCESS
+
+0 EXTERNAL_FACTOR GENERATION_PROCESS
+
+PARENT_STATE 0 CHILD 1 STATE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 1    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 2    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 3    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 4    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 5    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 6    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 7    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 8    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 9    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+
+2 OUTPUT_PROCESSES
+
+OUTPUT_PROCESS 1 : DISCRETE_PARAMETRIC
+
+STATE 0 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.1
+mean: 90   variance: 81   standard deviation: 9
+
+STATE 1 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.5
+mean: 450   variance: 225   standard deviation: 15
+
+STATE 2 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.9
+mean: 810   variance: 81   standard deviation: 9
+
+OUTPUT_PROCESS 2 : DISCRETE_PARAMETRIC
+
+STATE 0 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 15   PROBABILITY : 0.1
+mean: 1.5   variance: 1.35   standard deviation: 1.1619
+
+STATE 1 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 15   PROBABILITY : 0.5
+mean: 7.5   variance: 3.75   standard deviation: 1.93649
+
+STATE 2 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 15   PROBABILITY : 0.9
+mean: 13.5   variance: 1.35   standard deviation: 1.1619
+
+Read MarkovOutTree from a file: 
+MARKOV_OUT_TREE
+
+3 STATES
+
+INITIAL_PROBABILITIES
+0.451948      0.472727     0.0753247
+
+1 ORDERED_CHILD
+
+1 VARIABLE_ORDER_MARKOV_CHAIN
+
+MARKOV_CHAIN
+
+3 STATES
+
+INITIAL_PROBABILITIES
+0.451948   0.472727   0.0753247  
+
+TRANSITION_PROBABILITIES      memory
+0.52004    0.166333   0.313627    0       terminal
+0.0833333  0.636905   0.279762    1       terminal
+0.340206   0.631443   0.0283505   2       terminal
+
+recurrent class: states 0 1 2
+
+memory tree
+
+|___0
+|___1
+|___2
+
+    0   1   2 
+
+transition tree
+
+0
+
+1
+
+2
+
+memory transition matrix
+
+0   0   1   2       terminal
+1   0   1   2       terminal
+2   0   1   2       terminal
+
+time up to the first occurrence of state 0 distribution
+mean: 3.74461   variance: 31.3331   standard deviation: 5.5976
+
+time up to the first occurrence of state 1 distribution
+mean: 1.77049   variance: 6.21069   standard deviation: 2.49213
+
+time up to the first occurrence of state 2 distribution
+mean: 3.13228   variance: 8.12067   standard deviation: 2.84968
+
+state 0 recurrence time distribution
+mean: 3.91221   variance: 25.9319   standard deviation: 5.09233
+
+state 1 recurrence time distribution
+mean: 1.92045   variance: 3.45624   standard deviation: 1.8591
+
+state 2 recurrence time distribution
+mean: 4.3249   variance: 8.17466   standard deviation: 2.85914
+
+state 0 sojourn time distribution
+mean: 2.07523   variance: 2.16633   standard deviation: 1.47184
+coefficient of variation: 0.709246
+
+state 1 sojourn time distribution
+mean: 2.74236   variance: 4.643   standard deviation: 2.15476
+coefficient of variation: 0.785733
+
+state 2 sojourn time distribution
+mean: 1.02757   variance: 0.0268089   standard deviation: 0.163734
+coefficient of variation: 0.159341
+
+number of runs of state 0 per length 0 sequence distribution
+mean: 0   variance: 0   standard deviation: 0
+
+number of runs of state 1 per length 0 sequence distribution
+mean: 0   variance: 0   standard deviation: 0
+
+number of runs of state 2 per length 0 sequence distribution
+mean: 0   variance: 0   standard deviation: 0
+
+number of occurrences of state 0 per length 0 sequence distribution
+mean: 0   variance: 0   standard deviation: 0
+
+number of occurrences of state 1 per length 0 sequence distribution
+mean: 0   variance: 0   standard deviation: 0
+
+number of occurrences of state 2 per length 0 sequence distribution
+mean: 0   variance: 0   standard deviation: 0
+
+2 FACTOR GENERATION_PROCESSES
+
+1 CHILD GENERATION_PROCESS
+
+0 EXTERNAL_FACTOR GENERATION_PROCESS
+
+PARENT_STATE 0 CHILD 1 STATE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 1    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 2    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 3    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 4    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 5    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 6    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 7    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 8    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 9    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+
+2 OUTPUT_PROCESSES
+
+OUTPUT_PROCESS 1 : DISCRETE_PARAMETRIC
+
+STATE 0 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.1
+mean: 90   variance: 81   standard deviation: 9
+
+STATE 1 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.5
+mean: 450   variance: 225   standard deviation: 15
+
+STATE 2 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.9
+mean: 810   variance: 81   standard deviation: 9
+
+OUTPUT_PROCESS 2 : DISCRETE_PARAMETRIC
+
+STATE 0 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 15   PROBABILITY : 0.1
+mean: 1.5   variance: 1.35   standard deviation: 1.1619
+
+STATE 1 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 15   PROBABILITY : 0.5
+mean: 7.5   variance: 3.75   standard deviation: 1.93649
+
+STATE 2 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 15   PROBABILITY : 0.9
+mean: 13.5   variance: 1.35   standard deviation: 1.1619
+
+Read MarkovOutTree from a file: 
+MARKOV_OUT_TREE
+
+3 STATES
+
+INITIAL_PROBABILITIES
+0.872727      0.051948     0.0753247
+
+1 ORDERED_CHILD
+
+1 VARIABLE_ORDER_MARKOV_CHAIN
+
+MARKOV_CHAIN
+
+3 STATES
+
+INITIAL_PROBABILITIES
+0.872727   0.051948   0.0753247  
+
+TRANSITION_PROBABILITIES      memory
+0.52004    0.166333   0.313627    0       terminal
+0.0833333  0.636905   0.279762    1       terminal
+0.340206   0.631443   0.0283505   2       terminal
+
+recurrent class: states 0 1 2
+
+memory tree
+
+|___0
+|___1
+|___2
+
+    0   1   2 
+
+transition tree
+
+0
+
+1
+
+2
+
+memory transition matrix
+
+0   0   1   2       terminal
+1   0   1   2       terminal
+2   0   1   2       terminal
+
+time up to the first occurrence of state 0 distribution
+mean: 0.760582   variance: 7.92553   standard deviation: 2.81523
+
+time up to the first occurrence of state 1 distribution
+mean: 3.27601   variance: 6.89697   standard deviation: 2.62621
+
+time up to the first occurrence of state 2 distribution
+mean: 3.04453   variance: 7.84797   standard deviation: 2.80142
+
+state 0 recurrence time distribution
+mean: 3.91221   variance: 25.9319   standard deviation: 5.09233
+
+state 1 recurrence time distribution
+mean: 1.92045   variance: 3.45624   standard deviation: 1.8591
+
+state 2 recurrence time distribution
+mean: 4.3249   variance: 8.17466   standard deviation: 2.85914
+
+state 0 sojourn time distribution
+mean: 2.07523   variance: 2.16633   standard deviation: 1.47184
+coefficient of variation: 0.709246
+
+state 1 sojourn time distribution
+mean: 2.74236   variance: 4.643   standard deviation: 2.15476
+coefficient of variation: 0.785733
+
+state 2 sojourn time distribution
+mean: 1.02757   variance: 0.0268089   standard deviation: 0.163734
+coefficient of variation: 0.159341
+
+number of runs of state 0 per length 0 sequence distribution
+mean: 0   variance: 0   standard deviation: 0
+
+number of runs of state 1 per length 0 sequence distribution
+mean: 0   variance: 0   standard deviation: 0
+
+number of runs of state 2 per length 0 sequence distribution
+mean: 0   variance: 0   standard deviation: 0
+
+number of occurrences of state 0 per length 0 sequence distribution
+mean: 0   variance: 0   standard deviation: 0
+
+number of occurrences of state 1 per length 0 sequence distribution
+mean: 0   variance: 0   standard deviation: 0
+
+number of occurrences of state 2 per length 0 sequence distribution
+mean: 0   variance: 0   standard deviation: 0
+
+2 FACTOR GENERATION_PROCESSES
+
+1 CHILD GENERATION_PROCESS
+
+0 EXTERNAL_FACTOR GENERATION_PROCESS
+
+PARENT_STATE 0 CHILD 1 STATE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PARAMETER : 0.9    ;    PROBABILITY : 0.9   0.55   0.9    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PARAMETER : 0.9    ;    PROBABILITY : 0.8   0.8   0.65    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PARAMETER : 0.9    ;    PROBABILITY : 0.8   0.8   0.8    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PARAMETER : 0.5    ;    PROBABILITY : 0.9   0.55   0.9    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PARAMETER : 0.5    ;    PROBABILITY : 0.8   0.8   0.65    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PARAMETER : 0.5    ;    PROBABILITY : 0.8   0.8   0.8    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PARAMETER : 1.3    ;    PROBABILITY : 0.9   0.55   0.9    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PARAMETER : 1.3    ;    PROBABILITY : 0.8   0.8   0.65    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PARAMETER : 1.3    ;    PROBABILITY : 0.8   0.8   0.8    ; 
+
+
+2 OUTPUT_PROCESSES
+
+OUTPUT_PROCESS 1 : DISCRETE_PARAMETRIC
+
+STATE 0 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.1
+mean: 90   variance: 81   standard deviation: 9
+
+STATE 1 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.5
+mean: 450   variance: 225   standard deviation: 15
+
+STATE 2 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.9
+mean: 810   variance: 81   standard deviation: 9
+
+OUTPUT_PROCESS 2 : DISCRETE_PARAMETRIC
+
+STATE 0 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 15   PROBABILITY : 0.1
+mean: 1.5   variance: 1.35   standard deviation: 1.1619
+
+STATE 1 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 15   PROBABILITY : 0.5
+mean: 7.5   variance: 3.75   standard deviation: 1.93649
+
+STATE 2 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 15   PROBABILITY : 0.9
+mean: 13.5   variance: 1.35   standard deviation: 1.1619
+Simulate Markov out-tree: 
+
+variable 1 - step: 1
+
+Simulated state trees : 
+0
+|-0
+  |-0
+  | |-0
+  |   |-0
+  |     
+  |-1
+  | |-1
+  | | |-1
+  | | |-0
+  | |   
+  | |-2
+  | | |-2
+  | | |-1
+  | |   
+  | |-1
+  |   |-1
+  |   |-1
+  |     
+  |-1
+  | |-1
+  | | |-1
+  | | |-1
+  | | |-1
+  | | |-0
+  | | |-2
+  | | |-0
+  | |   
+  | |-1
+  | | |-1
+  | |   
+  | |-2
+  | | |-2
+  | | |-0
+  | | |-1
+  | | |-0
+  | |   
+  | |-2
+  | | |-2
+  | | |-1
+  | | |-2
+  | |   
+  | |-1
+  | | |-1
+  | | |-2
+  | | |-0
+  | | |-2
+  | | |-0
+  | | |-2
+  | | |-1
+  | | |-2
+  | | |-2
+  | |   
+  | |-2
+  |   |-2
+  |   |-2
+  |   |-0
+  |   |-1
+  |   |-1
+  |   |-2
+  |   |-1
+  |   |-2
+  |     
+  |-1
+  | |-1
+  | | |-1
+  | | |-1
+  | | |-0
+  | |   
+  | |-2
+  |   |-2
+  |   |-1
+  |   |-0
+  |   |-2
+  |   |-1
+  |     
+  |-1
+  | |-1
+  | | |-1
+  | |   
+  | |-0
+  | | |-0
+  | |   
+  | |-2
+  | | |-2
+  | |   
+  | |-1
+  | | |-1
+  | |   
+  | |-0
+  |   |-0
+  |   |-1
+  |   |-1
+  |   |-0
+  |   |-1
+  |     
+  |-1
+  | |-1
+  |   |-1
+  |     
+  |-2
+  | |-2
+  | | |-2
+  | |   
+  | |-0
+  |   |-0
+  |     
+  |-0
+    |-0
+      |-0
+      |-1
+      |-1
+      |-1
+        
+
+Simulated trees : 
+tree 0: 
+(87, 2)
+|-(82, 1)
+  |-(87, 1)
+  | |-(97, 1)
+  |   |-(76, 1)
+  |     
+  |-(463, 6)
+  | |-(463, 10)
+  | | |-(478, 8)
+  | | |-(90, 0)
+  | |   
+  | |-(802, 14)
+  | | |-(809, 15)
+  | | |-(435, 15)
+  | |   
+  | |-(468, 7)
+  |   |-(433, 13)
+  |   |-(410, 10)
+  |     
+  |-(446, 5)
+  | |-(448, 5)
+  | | |-(435, 7)
+  | | |-(455, 6)
+  | | |-(458, 7)
+  | | |-(86, 1)
+  | | |-(797, 14)
+  | | |-(83, 2)
+  | |   
+  | |-(461, 8)
+  | | |-(441, 8)
+  | |   
+  | |-(814, 14)
+  | | |-(809, 13)
+  | | |-(99, 1)
+  | | |-(457, 7)
+  | | |-(89, 1)
+  | |   
+  | |-(794, 13)
+  | | |-(813, 11)
+  | | |-(444, 6)
+  | | |-(813, 14)
+  | |   
+  | |-(472, 10)
+  | | |-(460, 6)
+  | | |-(812, 14)
+  | | |-(85, 2)
+  | | |-(805, 13)
+  | | |-(82, 4)
+  | | |-(785, 15)
+  | | |-(443, 6)
+  | | |-(809, 15)
+  | | |-(822, 14)
+  | |   
+  | |-(815, 13)
+  |   |-(814, 13)
+  |   |-(822, 15)
+  |   |-(90, 2)
+  |   |-(435, 6)
+  |   |-(467, 7)
+  |   |-(809, 15)
+  |   |-(450, 6)
+  |   |-(802, 14)
+  |     
+  |-(432, 13)
+  | |-(444, 8)
+  | | |-(454, 7)
+  | | |-(450, 5)
+  | | |-(80, 1)
+  | |   
+  | |-(819, 13)
+  |   |-(822, 14)
+  |   |-(454, 6)
+  |   |-(81, 0)
+  |   |-(799, 14)
+  |   |-(445, 6)
+  |     
+  |-(438, 8)
+  | |-(444, 8)
+  | | |-(447, 10)
+  | |   
+  | |-(85, 2)
+  | | |-(81, 3)
+  | |   
+  | |-(806, 13)
+  | | |-(819, 13)
+  | |   
+  | |-(439, 6)
+  | | |-(444, 10)
+  | |   
+  | |-(85, 2)
+  |   |-(85, 0)
+  |   |-(438, 7)
+  |   |-(467, 5)
+  |   |-(79, 1)
+  |   |-(442, 8)
+  |     
+  |-(465, 8)
+  | |-(470, 5)
+  |   |-(426, 4)
+  |     
+  |-(805, 14)
+  | |-(814, 13)
+  | | |-(812, 14)
+  | |   
+  | |-(83, 2)
+  |   |-(89, 0)
+  |     
+  |-(90, 1)
+    |-(95, 0)
+      |-(99, 0)
+      |-(464, 6)
+      |-(445, 10)
+      |-(444, 9)
+        
+
+
+Read MultitypeBranchingProcess from a file: 
+MARKOV_OUT_TREE
+
+3 STATES
+
+INITIAL_PROBABILITIES
+0.872727      0.051948     0.0753247
+
+0 ORDERED_CHILD
+
+0 VARIABLE_ORDER_MARKOV_CHAIN
+
+1 FACTOR GENERATION_PROCESS
+
+0 CHILD GENERATION_PROCESS
+
+0 EXTERNAL_FACTOR GENERATION_PROCESS
+
+PARENT_STATE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PARAMETER : 0.9    ;    PROBABILITY : 0.9   0.55   0.9    ; 
+
+PARENT_STATE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PARAMETER : 0.5    ;    PROBABILITY : 0.8   0.8   0.65    ; 
+
+PARENT_STATE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PARAMETER : 1.3    ;    PROBABILITY : 0.8   0.8   0.8    ; 
+
+
+0 OUTPUT_PROCESSES
+Simulate multitype branching process: 
+
+Simulated state trees : 
+tree 0: 
+0
+
+tree 1: 
+0
+|-0
+|-1
+  |-0
+  |-1
+    
+
+tree 2: 
+0
+
+tree 3: 
+0
+|-1
+
+tree 4: 
+0
+|-1
+  |-0
+  |-1
+  |-0
+    
+
+tree 5: 
+0
+
+
+Generation probabilities: 
+0 -> (1, 1): -15.6759
+0 -> (0, 0): -0.94484
+1 -> (1, 1): -27.4963
+Partial likelihood for tree 1: -44.2531
+
+Vertices with censored descendants in tree 1: 
+3 ;4 ;
+Estimate a multitype branching process. 
+Trees sizes: 4; 17; 2; 11; 88; 14; 
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.155556   0.733333   0.111111    ; 
+COMPOUNDING_DISTRIBUTION: 
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 1.3598   PROBABILITY : 0.458318
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.340426   0.234043   0.425532    ; 
+COMPOUNDING_DISTRIBUTION: 
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 0.670941   PROBABILITY : 0.37483
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.368421   0.315789   0.315789    ; 
+COMPOUNDING_DISTRIBUTION: 
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 1.72548   PROBABILITY : 0.52148
+Estimated model: 
+MARKOV_OUT_TREE
+
+3 STATES
+
+INITIAL_PROBABILITIES
+0.833325     1e-05  0.166665
+
+0 ORDERED_CHILD
+
+0 VARIABLE_ORDER_MARKOV_CHAIN
+
+1 FACTOR GENERATION_PROCESS
+
+0 CHILD GENERATION_PROCESS
+
+0 EXTERNAL_FACTOR GENERATION_PROCESS
+
+PARENT_STATE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.155556   0.733333   0.111111    ; 
+COMPOUNDING_DISTRIBUTION: 
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 1.3598   PROBABILITY : 0.458318
+
+PARENT_STATE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.340426   0.234043   0.425532    ; 
+COMPOUNDING_DISTRIBUTION: 
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 0.670941   PROBABILITY : 0.37483
+
+PARENT_STATE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.368421   0.315789   0.315789    ; 
+COMPOUNDING_DISTRIBUTION: 
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 1.72548   PROBABILITY : 0.52148
+
+
+0 OUTPUT_PROCESSES
+
+tree size frequency distribution - sample size: 6
+mean: 22.6667   variance: 1057.47   standard deviation: 32.5187
+
+cumulative size: 136
+
+information of the trees in the iid case: 0 (0)
+
+
+Read MultitypeBranchingProcess from a file: 
+MARKOV_OUT_TREE
+
+3 STATES
+
+INITIAL_PROBABILITIES
+0.872727      0.051948     0.0753247
+
+0 ORDERED_CHILD
+
+0 VARIABLE_ORDER_MARKOV_CHAIN
+
+1 FACTOR GENERATION_PROCESS
+
+0 CHILD GENERATION_PROCESS
+
+0 EXTERNAL_FACTOR GENERATION_PROCESS
+
+PARENT_STATE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PARAMETER : 0.9    ;    PROBABILITY : 0.9   0.55   0.9    ; 
+
+PARENT_STATE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PARAMETER : 0.5    ;    PROBABILITY : 0.8   0.8   0.65    ; 
+
+PARENT_STATE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PARAMETER : 1.3    ;    PROBABILITY : 0.8   0.8   0.8    ; 
+
+
+2 OUTPUT_PROCESSES
+
+OUTPUT_PROCESS 1 : DISCRETE_PARAMETRIC
+
+STATE 0 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.1
+mean: 90   variance: 81   standard deviation: 9
+
+STATE 1 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.5
+mean: 450   variance: 225   standard deviation: 15
+
+STATE 2 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.9
+mean: 810   variance: 81   standard deviation: 9
+
+OUTPUT_PROCESS 2 : DISCRETE_PARAMETRIC
+
+STATE 0 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 26   PROBABILITY : 0.1
+mean: 2.6   variance: 2.34   standard deviation: 1.52971
+
+STATE 1 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 26   PROBABILITY : 0.5
+mean: 13   variance: 6.5   standard deviation: 2.54951
+
+STATE 2 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 26   PROBABILITY : 0.9
+mean: 23.4   variance: 2.34   standard deviation: 1.52971
+
+Estimate a multitype branching process with output processes. 
+Trees sizes: 16; 128; 4; 133; 2; 154; 
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.157025   0.669421   0.173554    ; 
+COMPOUNDING_DISTRIBUTION: 
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 0.849881   PROBABILITY : 0.320003
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.308824   0.286765   0.404412    ; 
+COMPOUNDING_DISTRIBUTION: 
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 0.58165   PROBABILITY : 0.313951
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.321839   0.33908   0.33908    ; 
+COMPOUNDING_DISTRIBUTION: 
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 1.0354   PROBABILITY : 0.317007
+Estimated model: 
+MARKOV_OUT_TREE
+
+3 STATES
+
+INITIAL_PROBABILITIES
+0.833325     1e-05  0.166665
+
+0 ORDERED_CHILD
+
+0 VARIABLE_ORDER_MARKOV_CHAIN
+
+1 FACTOR GENERATION_PROCESS
+
+0 CHILD GENERATION_PROCESS
+
+0 EXTERNAL_FACTOR GENERATION_PROCESS
+
+PARENT_STATE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.157025   0.669421   0.173554    ; 
+COMPOUNDING_DISTRIBUTION: 
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 0.849881   PROBABILITY : 0.320003
+
+PARENT_STATE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.308824   0.286765   0.404412    ; 
+COMPOUNDING_DISTRIBUTION: 
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 0.58165   PROBABILITY : 0.313951
+
+PARENT_STATE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.321839   0.33908   0.33908    ; 
+COMPOUNDING_DISTRIBUTION: 
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 1.0354   PROBABILITY : 0.317007
+
+
+2 OUTPUT_PROCESSES
+
+OUTPUT_PROCESS 1 : DISCRETE_PARAMETRIC
+
+STATE 0 OBSERVATION_DISTRIBUTION
+POISSON   INF_BOUND : 8   PARAMETER : 83.3033   
+mean: 91.3033   variance: 83.3033   standard deviation: 9.12706
+
+state 0 observation frequency distribution - sample size: 122
+mean: 91.3033   variance: 82.6539   standard deviation: 9.09142
+
+STATE 1 OBSERVATION_DISTRIBUTION
+NEGATIVE_BINOMIAL   INF_BOUND : 298   PARAMETER : 916.687   PROBABILITY : 0.856471
+mean: 451.62   variance: 179.364   standard deviation: 13.3927
+
+state 1 observation frequency distribution - sample size: 179
+mean: 451.62   variance: 179.364   standard deviation: 13.3927
+
+STATE 2 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 902   PROBABILITY : 0.898396
+mean: 810.353   variance: 82.3353   standard deviation: 9.07388
+
+state 2 observation frequency distribution - sample size: 136
+mean: 810.353   variance: 83.3166   standard deviation: 9.12779
+
+OUTPUT_PROCESS 2 : DISCRETE_PARAMETRIC
+
+STATE 0 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 14   PROBABILITY : 0.169789
+mean: 2.37705   variance: 1.97345   standard deviation: 1.4048
+
+state 0 observation frequency distribution - sample size: 122
+mean: 2.37705   variance: 1.9398   standard deviation: 1.39277
+
+STATE 1 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 3   SUP_BOUND : 24   PROBABILITY : 0.472998
+mean: 12.933   variance: 5.23469   standard deviation: 2.28794
+
+state 1 observation frequency distribution - sample size: 179
+mean: 12.933   variance: 5.25808   standard deviation: 2.29305
+
+STATE 2 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 26   PROBABILITY : 0.890554
+mean: 23.1544   variance: 2.53415   standard deviation: 1.5919
+
+state 2 observation frequency distribution - sample size: 136
+mean: 23.1544   variance: 2.68939   standard deviation: 1.63994
+
+tree size frequency distribution - sample size: 6
+mean: 72.8333   variance: 5247.37   standard deviation: 72.4387
+
+cumulative size: 437
+
+information of the trees in the iid case: -3361.79 (-7.69289)
+
+Estimate a multitype branching process with output processes from get_state_markov_out_tree_data().
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.157025   0.669421   0.173554    ; 
+COMPOUNDING_DISTRIBUTION: 
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 0.849881   PROBABILITY : 0.320003
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.308824   0.286765   0.404412    ; 
+COMPOUNDING_DISTRIBUTION: 
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 0.58165   PROBABILITY : 0.313951
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.321839   0.33908   0.33908    ; 
+COMPOUNDING_DISTRIBUTION: 
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 1.0354   PROBABILITY : 0.317007
+Estimated model: 
+MARKOV_OUT_TREE
+
+3 STATES
+
+INITIAL_PROBABILITIES
+0.833325     1e-05  0.166665
+
+0 ORDERED_CHILD
+
+0 VARIABLE_ORDER_MARKOV_CHAIN
+
+1 FACTOR GENERATION_PROCESS
+
+0 CHILD GENERATION_PROCESS
+
+0 EXTERNAL_FACTOR GENERATION_PROCESS
+
+PARENT_STATE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.157025   0.669421   0.173554    ; 
+COMPOUNDING_DISTRIBUTION: 
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 0.849881   PROBABILITY : 0.320003
+
+PARENT_STATE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.308824   0.286765   0.404412    ; 
+COMPOUNDING_DISTRIBUTION: 
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 0.58165   PROBABILITY : 0.313951
+
+PARENT_STATE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.321839   0.33908   0.33908    ; 
+COMPOUNDING_DISTRIBUTION: 
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 1.0354   PROBABILITY : 0.317007
+
+
+3 OUTPUT_PROCESSES
+
+OUTPUT_PROCESS 1 : NONPARAMETRIC
+
+STATE 0 OBSERVATION_DISTRIBUTION
+
+STATE 1 OBSERVATION_DISTRIBUTION
+
+STATE 2 OBSERVATION_DISTRIBUTION
+
+observation probability matrix
+
+   0  1  2
+0  0  0  0
+1  0  0  0
+2  0  0  0
+
+path length (starting from root) up to the first occurrence of output 0 frequency distribution - sample size: 6
+mean: 0.166667   variance: 0.166667   standard deviation: 0.408248
+
+path length (starting from root) up to the first occurrence of output 1 frequency distribution - sample size: 5
+mean: 1.2   variance: 0.2   standard deviation: 0.447214
+
+path length (starting from root) up to the first occurrence of output 2 frequency distribution - sample size: 5
+mean: 1.4   variance: 1.3   standard deviation: 1.14018
+
+path length (starting from terminal nodes) up to the first occurrence of output 0 frequency distribution - sample size: 6
+mean: 0.166667   variance: 0.166667   standard deviation: 0.408248
+
+path length (starting from terminal nodes) up to the first occurrence of output 1 frequency distribution - sample size: 5
+mean: 0.2   variance: 0.2   standard deviation: 0.447214
+
+path length (starting from terminal nodes) up to the first occurrence of output 2 frequency distribution - sample size: 5
+mean: 0   variance: 0   standard deviation: 0
+
+output 0 sojourn size frequency distribution - sample size: 103
+mean: 1.18447   variance: 0.367599   standard deviation: 0.6063
+
+output 1 sojourn size frequency distribution - sample size: 140
+mean: 1.27857   variance: 0.706012   standard deviation: 0.840245
+
+output 2 sojourn size frequency distribution - sample size: 77
+mean: 1.76623   variance: 4.892   standard deviation: 2.21179
+
+number of zones of output 0 per tree frequency distribution - sample size: 6
+mean: 17.1667   variance: 277.367   standard deviation: 16.6543
+coefficient of skewness: 0.171683   coefficient of kurtosis: -1.99749
+
+number of zones of output 1 per tree frequency distribution - sample size: 6
+mean: 23.3333   variance: 583.067   standard deviation: 24.1468
+coefficient of skewness: 0.336038   coefficient of kurtosis: -1.80985
+
+number of zones of output 2 per tree frequency distribution - sample size: 6
+mean: 12.8333   variance: 151.767   standard deviation: 12.3194
+coefficient of skewness: -0.0345872   coefficient of kurtosis: -2.12331
+
+number of occurrences of output 0 per tree frequency distribution - sample size: 6
+mean: 20.3333   variance: 389.867   standard deviation: 19.745
+coefficient of skewness: -0.00832258   coefficient of kurtosis: -2.15775
+
+number of occurrences of output 1 per tree frequency distribution - sample size: 6
+mean: 29.8333   variance: 904.567   standard deviation: 30.076
+coefficient of skewness: 0.193243   coefficient of kurtosis: -1.99234
+
+number of occurrences of output 2 per tree frequency distribution - sample size: 6
+mean: 22.6667   variance: 561.467   standard deviation: 23.6953
+coefficient of skewness: 0.193554   coefficient of kurtosis: -2.00831
+
+OUTPUT_PROCESS 2 : DISCRETE_PARAMETRIC
+
+STATE 0 OBSERVATION_DISTRIBUTION
+POISSON   INF_BOUND : 8   PARAMETER : 83.3033   
+mean: 91.3033   variance: 83.3033   standard deviation: 9.12706
+
+state 0 observation frequency distribution - sample size: 122
+mean: 2.37705   variance: 1.9398   standard deviation: 1.39277
+
+STATE 1 OBSERVATION_DISTRIBUTION
+NEGATIVE_BINOMIAL   INF_BOUND : 298   PARAMETER : 916.687   PROBABILITY : 0.856471
+mean: 451.62   variance: 179.364   standard deviation: 13.3927
+
+state 1 observation frequency distribution - sample size: 179
+mean: 12.933   variance: 5.25808   standard deviation: 2.29305
+
+STATE 2 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 902   PROBABILITY : 0.898396
+mean: 810.353   variance: 82.3353   standard deviation: 9.07388
+
+state 2 observation frequency distribution - sample size: 136
+mean: 23.1544   variance: 2.68939   standard deviation: 1.63994
+
+OUTPUT_PROCESS 3 : DISCRETE_PARAMETRIC
+
+STATE 0 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 14   PROBABILITY : 0.169789
+mean: 2.37705   variance: 1.97345   standard deviation: 1.4048
+
+state 0 observation frequency distribution - sample size: 122
+mean: 2.37705   variance: 1.9398   standard deviation: 1.39277
+
+STATE 1 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 3   SUP_BOUND : 24   PROBABILITY : 0.472998
+mean: 12.933   variance: 5.23469   standard deviation: 2.28794
+
+state 1 observation frequency distribution - sample size: 179
+mean: 12.933   variance: 5.25808   standard deviation: 2.29305
+
+STATE 2 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 26   PROBABILITY : 0.890554
+mean: 23.1544   variance: 2.53415   standard deviation: 1.5919
+
+state 2 observation frequency distribution - sample size: 136
+mean: 23.1544   variance: 2.68939   standard deviation: 1.63994
+
+tree size frequency distribution - sample size: 6
+mean: 72.8333   variance: 5247.37   standard deviation: 72.4387
+
+cumulative size: 437
+
+information of the trees in the iid case: -3361.79 (-7.69289)
+
+build a MarkovOutTreeData from a Trees  by selecting some state variable
+1 STATE PROCESS   (3 STATES)
+
+state frequency distribution - sample size: 437
+mean: 1.03204   variance: 0.590714   standard deviation: 0.768579
+
+   | state frequency distribution
+0  122
+1  179
+2  136
+
+2 VARIABLES
+
+VARIABLE 1 : INT   (minimum value: 71, maximum value: 833)
+834 values
+
+marginal frequency distribution - sample size: 437
+mean: 462.67   variance: 76470   standard deviation: 276.532
+
+VARIABLE 2 : INT   (minimum value: 0, maximum value: 26)
+27 values
+
+marginal frequency distribution - sample size: 437
+mean: 13.167   variance: 67.2541   standard deviation: 8.20086
+
+tree size frequency distribution - sample size: 6
+mean: 72.8333   variance: 5247.37   standard deviation: 72.4387
+
+cumulative size: 437
+
+number of children frequency distribution - sample size: 437
+mean: 0.98627   variance: 3.89431   standard deviation: 1.9734
+
+cumulative number of children: 431
+build a MarkovOutTreeData from a Trees  by selecting the only variable
+1 STATE PROCESS   (3 STATES)
+
+state frequency distribution - sample size: 437
+mean: 1.03204   variance: 0.590714   standard deviation: 0.768579
+coefficient of skewness: -0.054646   coefficient of kurtosis: -1.30554
+
+   | state frequency distribution
+0  122
+1  179
+2  136
+
+0 VARIABLES
+
+tree size frequency distribution - sample size: 6
+mean: 72.8333   variance: 5247.37   standard deviation: 72.4387
+
+   | tree size frequency distribution
+  0  0
+  1  0
+  2  1
+  3  0
+  4  1
+  5  0
+  6  0
+  7  0
+  8  0
+  9  0
+ 10  0
+ 11  0
+ 12  0
+ 13  0
+ 14  0
+ 15  0
+ 16  1
+ 17  0
+ 18  0
+ 19  0
+ 20  0
+ 21  0
+ 22  0
+ 23  0
+ 24  0
+ 25  0
+ 26  0
+ 27  0
+ 28  0
+ 29  0
+ 30  0
+ 31  0
+ 32  0
+ 33  0
+ 34  0
+ 35  0
+ 36  0
+ 37  0
+ 38  0
+ 39  0
+ 40  0
+ 41  0
+ 42  0
+ 43  0
+ 44  0
+ 45  0
+ 46  0
+ 47  0
+ 48  0
+ 49  0
+ 50  0
+ 51  0
+ 52  0
+ 53  0
+ 54  0
+ 55  0
+ 56  0
+ 57  0
+ 58  0
+ 59  0
+ 60  0
+ 61  0
+ 62  0
+ 63  0
+ 64  0
+ 65  0
+ 66  0
+ 67  0
+ 68  0
+ 69  0
+ 70  0
+ 71  0
+ 72  0
+ 73  0
+ 74  0
+ 75  0
+ 76  0
+ 77  0
+ 78  0
+ 79  0
+ 80  0
+ 81  0
+ 82  0
+ 83  0
+ 84  0
+ 85  0
+ 86  0
+ 87  0
+ 88  0
+ 89  0
+ 90  0
+ 91  0
+ 92  0
+ 93  0
+ 94  0
+ 95  0
+ 96  0
+ 97  0
+ 98  0
+ 99  0
+100  0
+101  0
+102  0
+103  0
+104  0
+105  0
+106  0
+107  0
+108  0
+109  0
+110  0
+111  0
+112  0
+113  0
+114  0
+115  0
+116  0
+117  0
+118  0
+119  0
+120  0
+121  0
+122  0
+123  0
+124  0
+125  0
+126  0
+127  0
+128  1
+129  0
+130  0
+131  0
+132  0
+133  1
+134  0
+135  0
+136  0
+137  0
+138  0
+139  0
+140  0
+141  0
+142  0
+143  0
+144  0
+145  0
+146  0
+147  0
+148  0
+149  0
+150  0
+151  0
+152  0
+153  0
+154  1
+
+cumulative size: 437
+
+number of children frequency distribution - sample size: 437
+mean: 0.98627   variance: 3.89431   standard deviation: 1.9734
+
+   | number of children frequency distribution
+ 0  286
+ 1   57
+ 2   35
+ 3   21
+ 4   11
+ 5    7
+ 6    4
+ 7    3
+ 8    9
+ 9    1
+10    1
+11    0
+12    0
+13    2
+
+cumulative number of children: 431
+Extract DistributionData 0 for parent 1: 
+CATEGORICAL   
+mean: 0.393255   variance: 0.670041   standard deviation: 0.818561
+coefficient of skewness: 2.729   coefficient of kurtosis: 9.06441
+mean absolute deviation: 0.58677   coefficient of concentration: 0.813027
+
+frequency distribution - sample size: 107
+mean: 0.392523   variance: 1.01428   standard deviation: 1.00712
+coefficient of skewness: 3.66028   coefficient of kurtosis: 13.8311
+mean absolute deviation: 0.608961   coefficient of concentration: 0.853583
+
+log-likelihood: -85.6107   (normalized: -0.8001)
+maximum possible log-likelihood: -79.8159   (information: -0.745943)
+deviance: 11.5896
+
+chi-square test (4 degrees of freedom)
+chi-square value: 10.2192   critical probability: 0.0368924
+reference chi-square value: 9.48773   reference critical probability: 0.05
+reference chi-square value: 13.2767   reference critical probability: 0.01
+
+   | frequency distribution | distribution | cumulative frequency distribution function | cumulative distribution function
+0  83   79.7531  0.775701  0.745356
+1  18   17.7229  0.943925  0.910991
+2   1   5.90764  0.953271  0.966202
+3   1   2.18801  0.962617  0.986651
+4   2  0.850894  0.981308  0.994603
+5   1  0.340358  0.990654  0.997784
+6   1  0.138664         1   0.99908
+
+Extract DistributionData 1 for parent 1: 
+CATEGORICAL   
+mean: 0.393255   variance: 0.670041   standard deviation: 0.818561
+coefficient of skewness: 2.729   coefficient of kurtosis: 9.06441
+mean absolute deviation: 0.58677   coefficient of concentration: 0.813027
+
+frequency distribution - sample size: 107
+mean: 0.364486   variance: 0.497972   standard deviation: 0.705671
+coefficient of skewness: 2.46495   coefficient of kurtosis: 7.0312
+mean absolute deviation: 0.5314   coefficient of concentration: 0.785526
+
+log-likelihood: -85.6861   (normalized: -0.800805)
+maximum possible log-likelihood: -84.1193   (information: -0.786161)
+deviance: 3.13362
+
+chi-square test (4 degrees of freedom)
+chi-square value: 1.93707   critical probability: 0.747332
+reference chi-square value: 9.48773   reference critical probability: 0.05
+
+   | frequency distribution | distribution | cumulative frequency distribution function | cumulative distribution function
+0  78   79.7531  0.728972  0.745356
+1  22   17.7229  0.934579  0.910991
+2   5   5.90764  0.981308  0.966202
+3   1   2.18801  0.990654  0.986651
+4   1  0.850894         1  0.994603
+5      0.340358            0.997784
+6      0.138664             0.99908
+
+Extract DistributionData 2 for parent 1: 
+CATEGORICAL   
+mean: 0.692368   variance: 1.59064   standard deviation: 1.26121
+coefficient of skewness: 2.65403   coefficient of kurtosis: 8.99929
+mean absolute deviation: 0.894431   coefficient of concentration: 0.765539
+
+frequency distribution - sample size: 107
+mean: 0.514019   variance: 0.742726   standard deviation: 0.861816
+coefficient of skewness: 1.7582   coefficient of kurtosis: 2.0968
+mean absolute deviation: 0.682156   coefficient of concentration: 0.746984
+
+log-likelihood: -106.164   (normalized: -0.992188)
+maximum possible log-likelihood: -99.4006   (information: -0.928977)
+deviance: 13.5271
+
+chi-square test (5 degrees of freedom)
+chi-square value: 8.78199   critical probability: 0.118082
+reference chi-square value: 11.0705   reference critical probability: 0.05
+
+   | frequency distribution | distribution | cumulative frequency distribution function | cumulative distribution function
+ 0  71    69.0682  0.663551  0.645497
+ 1  24    20.1449   0.88785  0.833767
+ 2   5    8.81339  0.934579  0.916135
+ 3   7    4.28429         1  0.956175
+ 4        2.18677            0.976613
+ 5        1.14806            0.987342
+ 6       0.613891            0.993079
+ 7       0.332524            0.996187
+ 8       0.181849            0.997887
+ 9       0.100185            0.998823
+10      0.0555194            0.999342
+
+Build MarkovOutTree with factors from pointers: 
+MARKOV_OUT_TREE
+
+3 STATES
+
+INITIAL_PROBABILITIES
+0.451948   0.472727  0.0753247
+
+1 ORDERED_CHILD
+
+1 VARIABLE_ORDER_MARKOV_CHAIN
+
+MARKOV_CHAIN
+
+3 STATES
+
+INITIAL_PROBABILITIES
+0.451948   0.472727   0.0753247  
+
+TRANSITION_PROBABILITIES      memory
+0.52004    0.166333   0.313627    0       terminal
+0.0833333  0.636905   0.279762    1       terminal
+0.340206   0.631443   0.0283505   2       terminal
+
+recurrent class: states 0 1 2
+
+memory tree
+
+|___0
+|___1
+|___2
+
+    0   1   2 
+
+transition tree
+
+0
+
+1
+
+2
+
+memory transition matrix
+
+0   0   1   2       terminal
+1   0   1   2       terminal
+2   0   1   2       terminal
+
+time up to the first occurrence of state 0 distribution
+mean: 3.74461   variance: 31.3331   standard deviation: 5.5976
+
+time up to the first occurrence of state 1 distribution
+mean: 1.77049   variance: 6.21069   standard deviation: 2.49213
+
+time up to the first occurrence of state 2 distribution
+mean: 3.13228   variance: 8.12067   standard deviation: 2.84968
+
+state 0 recurrence time distribution
+mean: 3.91221   variance: 25.9319   standard deviation: 5.09233
+
+state 1 recurrence time distribution
+mean: 1.92045   variance: 3.45624   standard deviation: 1.8591
+
+state 2 recurrence time distribution
+mean: 4.3249   variance: 8.17466   standard deviation: 2.85914
+
+state 0 sojourn time distribution
+mean: 2.07523   variance: 2.16633   standard deviation: 1.47184
+coefficient of variation: 0.709246
+
+state 1 sojourn time distribution
+mean: 2.74236   variance: 4.643   standard deviation: 2.15476
+coefficient of variation: 0.785733
+
+state 2 sojourn time distribution
+mean: 1.02757   variance: 0.0268089   standard deviation: 0.163734
+coefficient of variation: 0.159341
+
+number of runs of state 0 per length 20 sequence distribution
+mean: 2.70441   variance: 1.55448   standard deviation: 1.24679
+coefficient of skewness: 0.214432   coefficient of kurtosis: -0.11933
+
+number of runs of state 1 per length 20 sequence distribution
+mean: 4.01341   variance: 1.51206   standard deviation: 1.22966
+coefficient of skewness: 0.121204   coefficient of kurtosis: -0.104529
+
+number of runs of state 2 per length 20 sequence distribution
+mean: 4.37146   variance: 1.90644   standard deviation: 1.38074
+coefficient of skewness: -0.0125178   coefficient of kurtosis: -0.157489
+
+number of occurrences of state 0 per length 20 sequence distribution
+mean: 5.36053   variance: 8.73406   standard deviation: 2.95534
+coefficient of skewness: 0.477044   coefficient of kurtosis: -0.0339467
+
+number of occurrences of state 1 per length 20 sequence distribution
+mean: 10.1472   variance: 9.87632   standard deviation: 3.14266
+coefficient of skewness: -0.101939   coefficient of kurtosis: -0.289507
+
+number of occurrences of state 2 per length 20 sequence distribution
+mean: 4.49228   variance: 2.08045   standard deviation: 1.44238
+coefficient of skewness: 0.0258145   coefficient of kurtosis: -0.136985
+
+4 FACTOR GENERATION_PROCESSES
+
+1 CHILD GENERATION_PROCESS
+
+2 EXTERNAL_FACTORS GENERATION_PROCESSES
+
+FACTOR 1 : 2 values
+FACTOR 2 : 3 values
+PARENT_STATE 0 CHILD 1 STATE 0 FACTOR 0 VALUE 0 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 1    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 0 FACTOR 0 VALUE 0 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 2    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 0 FACTOR 0 VALUE 0 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 3    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 1 FACTOR 0 VALUE 0 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 4    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 1 FACTOR 0 VALUE 0 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 5    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 1 FACTOR 0 VALUE 0 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 6    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 2 FACTOR 0 VALUE 0 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 7    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 2 FACTOR 0 VALUE 0 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 8    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 2 FACTOR 0 VALUE 0 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 9    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 0 FACTOR 0 VALUE 1 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 10    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 0 FACTOR 0 VALUE 1 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 11    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 0 FACTOR 0 VALUE 1 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 12    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 1 FACTOR 0 VALUE 1 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 13    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 1 FACTOR 0 VALUE 1 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 14    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 1 FACTOR 0 VALUE 1 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 15    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 2 FACTOR 0 VALUE 1 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 16    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 2 FACTOR 0 VALUE 1 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 17    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 2 FACTOR 0 VALUE 1 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 18    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 0 FACTOR 0 VALUE 0 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 19    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 0 FACTOR 0 VALUE 0 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 20    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 0 FACTOR 0 VALUE 0 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 21    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 1 FACTOR 0 VALUE 0 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 22    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 1 FACTOR 0 VALUE 0 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 23    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 1 FACTOR 0 VALUE 0 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 24    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 2 FACTOR 0 VALUE 0 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 25    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 2 FACTOR 0 VALUE 0 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 26    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 2 FACTOR 0 VALUE 0 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 27    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 0 FACTOR 0 VALUE 1 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 28    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 0 FACTOR 0 VALUE 1 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 29    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 0 FACTOR 0 VALUE 1 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 30    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 1 FACTOR 0 VALUE 1 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 31    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 1 FACTOR 0 VALUE 1 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 32    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 1 FACTOR 0 VALUE 1 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 33    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 2 FACTOR 0 VALUE 1 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 34    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 2 FACTOR 0 VALUE 1 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 35    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 2 FACTOR 0 VALUE 1 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 36    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 0 FACTOR 0 VALUE 0 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 37    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 0 FACTOR 0 VALUE 0 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 38    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 0 FACTOR 0 VALUE 0 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 39    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 1 FACTOR 0 VALUE 0 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 40    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 1 FACTOR 0 VALUE 0 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 41    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 1 FACTOR 0 VALUE 0 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 42    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 2 FACTOR 0 VALUE 0 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 43    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 2 FACTOR 0 VALUE 0 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 44    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 2 FACTOR 0 VALUE 0 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 45    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 0 FACTOR 0 VALUE 1 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 46    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 0 FACTOR 0 VALUE 1 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 47    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 0 FACTOR 0 VALUE 1 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 48    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 1 FACTOR 0 VALUE 1 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 49    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 1 FACTOR 0 VALUE 1 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 50    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 1 FACTOR 0 VALUE 1 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 51    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 2 FACTOR 0 VALUE 1 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 52    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 2 FACTOR 0 VALUE 1 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 53    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 2 FACTOR 0 VALUE 1 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 54    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+
+2 OUTPUT_PROCESSES
+
+OUTPUT_PROCESS 1 : DISCRETE_PARAMETRIC
+
+STATE 0 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.1
+mean: 90   variance: 81   standard deviation: 9
+
+STATE 1 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.5
+mean: 450   variance: 225   standard deviation: 15
+
+STATE 2 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.9
+mean: 810   variance: 81   standard deviation: 9
+
+OUTPUT_PROCESS 2 : DISCRETE_PARAMETRIC
+
+STATE 0 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 15   PROBABILITY : 0.1
+mean: 1.5   variance: 1.35   standard deviation: 1.1619
+
+STATE 1 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 15   PROBABILITY : 0.5
+mean: 7.5   variance: 3.75   standard deviation: 1.93649
+
+STATE 2 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 15   PROBABILITY : 0.9
+mean: 13.5   variance: 1.35   standard deviation: 1.1619
+
+Read MarkovOutTree from a file: 
+MARKOV_OUT_TREE
+
+3 STATES
+
+INITIAL_PROBABILITIES
+0.451948      0.472727     0.0753247
+
+1 ORDERED_CHILD
+
+1 VARIABLE_ORDER_MARKOV_CHAIN
+
+MARKOV_CHAIN
+
+3 STATES
+
+INITIAL_PROBABILITIES
+0.451948   0.472727   0.0753247  
+
+TRANSITION_PROBABILITIES      memory
+0.52004    0.166333   0.313627    0       terminal
+0.0833333  0.636905   0.279762    1       terminal
+0.340206   0.631443   0.0283505   2       terminal
+
+recurrent class: states 0 1 2
+
+memory tree
+
+|___0
+|___1
+|___2
+
+    0   1   2 
+
+transition tree
+
+0
+
+1
+
+2
+
+memory transition matrix
+
+0   0   1   2       terminal
+1   0   1   2       terminal
+2   0   1   2       terminal
+
+time up to the first occurrence of state 0 distribution
+mean: 3.74461   variance: 31.3331   standard deviation: 5.5976
+
+time up to the first occurrence of state 1 distribution
+mean: 1.77049   variance: 6.21069   standard deviation: 2.49213
+
+time up to the first occurrence of state 2 distribution
+mean: 3.13228   variance: 8.12067   standard deviation: 2.84968
+
+state 0 recurrence time distribution
+mean: 3.91221   variance: 25.9319   standard deviation: 5.09233
+
+state 1 recurrence time distribution
+mean: 1.92045   variance: 3.45624   standard deviation: 1.8591
+
+state 2 recurrence time distribution
+mean: 4.3249   variance: 8.17466   standard deviation: 2.85914
+
+state 0 sojourn time distribution
+mean: 2.07523   variance: 2.16633   standard deviation: 1.47184
+coefficient of variation: 0.709246
+
+state 1 sojourn time distribution
+mean: 2.74236   variance: 4.643   standard deviation: 2.15476
+coefficient of variation: 0.785733
+
+state 2 sojourn time distribution
+mean: 1.02757   variance: 0.0268089   standard deviation: 0.163734
+coefficient of variation: 0.159341
+
+number of runs of state 0 per length 0 sequence distribution
+mean: 0   variance: 0   standard deviation: 0
+
+number of runs of state 1 per length 0 sequence distribution
+mean: 0   variance: 0   standard deviation: 0
+
+number of runs of state 2 per length 0 sequence distribution
+mean: 0   variance: 0   standard deviation: 0
+
+number of occurrences of state 0 per length 0 sequence distribution
+mean: 0   variance: 0   standard deviation: 0
+
+number of occurrences of state 1 per length 0 sequence distribution
+mean: 0   variance: 0   standard deviation: 0
+
+number of occurrences of state 2 per length 0 sequence distribution
+mean: 0   variance: 0   standard deviation: 0
+
+4 FACTOR GENERATION_PROCESSES
+
+1 CHILD GENERATION_PROCESS
+
+2 EXTERNAL_FACTORS GENERATION_PROCESSES
+
+FACTOR 1 : 2 values
+FACTOR 2 : 3 values
+PARENT_STATE 0 CHILD 1 STATE 0 FACTOR 0 VALUE 0 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 1    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 0 FACTOR 0 VALUE 0 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 2    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 0 FACTOR 0 VALUE 0 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 3    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 1 FACTOR 0 VALUE 0 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 4    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 1 FACTOR 0 VALUE 0 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 5    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 1 FACTOR 0 VALUE 0 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 6    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 2 FACTOR 0 VALUE 0 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 7    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 2 FACTOR 0 VALUE 0 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 8    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 2 FACTOR 0 VALUE 0 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 9    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 0 FACTOR 0 VALUE 1 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 10    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 0 FACTOR 0 VALUE 1 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 11    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 0 FACTOR 0 VALUE 1 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 12    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 1 FACTOR 0 VALUE 1 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 13    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 1 FACTOR 0 VALUE 1 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 14    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 1 FACTOR 0 VALUE 1 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 15    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 2 FACTOR 0 VALUE 1 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 16    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 2 FACTOR 0 VALUE 1 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 17    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 2 FACTOR 0 VALUE 1 FACTOR 1 VALUE 0 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 18    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 0 FACTOR 0 VALUE 0 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 19    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 0 FACTOR 0 VALUE 0 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 20    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 0 FACTOR 0 VALUE 0 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 21    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 1 FACTOR 0 VALUE 0 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 22    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 1 FACTOR 0 VALUE 0 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 23    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 1 FACTOR 0 VALUE 0 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 24    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 2 FACTOR 0 VALUE 0 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 25    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 2 FACTOR 0 VALUE 0 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 26    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 2 FACTOR 0 VALUE 0 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 27    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 0 FACTOR 0 VALUE 1 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 28    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 0 FACTOR 0 VALUE 1 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 29    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 0 FACTOR 0 VALUE 1 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 30    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 1 FACTOR 0 VALUE 1 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 31    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 1 FACTOR 0 VALUE 1 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 32    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 1 FACTOR 0 VALUE 1 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 33    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 2 FACTOR 0 VALUE 1 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 34    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 2 FACTOR 0 VALUE 1 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 35    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 2 FACTOR 0 VALUE 1 FACTOR 1 VALUE 1 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 36    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 0 FACTOR 0 VALUE 0 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 37    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 0 FACTOR 0 VALUE 0 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 38    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 0 FACTOR 0 VALUE 0 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 39    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 1 FACTOR 0 VALUE 0 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 40    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 1 FACTOR 0 VALUE 0 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 41    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 1 FACTOR 0 VALUE 0 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 42    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 2 FACTOR 0 VALUE 0 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 43    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 2 FACTOR 0 VALUE 0 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 44    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 2 FACTOR 0 VALUE 0 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 45    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 0 FACTOR 0 VALUE 1 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 46    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 0 FACTOR 0 VALUE 1 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 47    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 0 FACTOR 0 VALUE 1 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 48    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 1 FACTOR 0 VALUE 1 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 49    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 1 FACTOR 0 VALUE 1 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 50    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 1 FACTOR 0 VALUE 1 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 51    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 0 CHILD 1 STATE 2 FACTOR 0 VALUE 1 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 52    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 1 CHILD 1 STATE 2 FACTOR 0 VALUE 1 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 53    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+PARENT_STATE 2 CHILD 1 STATE 2 FACTOR 0 VALUE 1 FACTOR 1 VALUE 2 GENERATION_DISTRIBUTION
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+3 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 1    ; PARAMETER : 54    ;    PROBABILITY : 0.75   0.75   0.75    ; 
+
+
+2 OUTPUT_PROCESSES
+
+OUTPUT_PROCESS 1 : DISCRETE_PARAMETRIC
+
+STATE 0 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 1   PROBABILITY : 0.1
+mean: 0.1   variance: 0.09   standard deviation: 0.3
+
+STATE 1 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 1   PROBABILITY : 0.5
+mean: 0.5   variance: 0.25   standard deviation: 0.5
+
+STATE 2 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 1   PROBABILITY : 0.9
+mean: 0.9   variance: 0.09   standard deviation: 0.3
+
+OUTPUT_PROCESS 2 : DISCRETE_PARAMETRIC
+
+STATE 0 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 2   PROBABILITY : 0.1
+mean: 0.2   variance: 0.18   standard deviation: 0.424264
+
+STATE 1 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 2   PROBABILITY : 0.5
+mean: 1   variance: 0.5   standard deviation: 0.707107
+
+STATE 2 OBSERVATION_DISTRIBUTION
+BINOMIAL   INF_BOUND : 0   SUP_BOUND : 2   PROBABILITY : 0.9
+mean: 1.8   variance: 0.18   standard deviation: 0.424264
+Simulate Markov out-tree.
+
+variable 1 - step: 1
+Combinations of factors: 
+0   0   0   0    ; 
+1   1   0   0    ; 
+0   0   1   0    ; 
+1   1   1   0    ; 
+2   2   1   0    ; 
+0   0   0   1    ; 
+1   1   0   1    ; 
+2   2   0   1    ; 
+0   0   1   1    ; 
+1   1   1   1    ; 
+2   2   1   1    ; 
+1   1   0   2    ; 
+2   2   0   2    ; 
+1   1   1   2    ; 
+2   2   1   2    ; 

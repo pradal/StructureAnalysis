@@ -2,8 +2,8 @@
 # a test for the class hmt.Hmt: estimation - syntax
 import sys, os
 import openalea.stat_tool as stat_tool
-from openalea.stat_tool.plot import gnuplot, set_plotter
-# set_plotter(gnuplot())
+from openalea.stat_tool.plot import gnuplot, set_plotter, mplotlib
+set_plotter(mplotlib())
 import openalea.tree_statistic.trees as trees, openalea.tree_statistic.hmt as hmt
 inf_bound=0
 sup_bound=3

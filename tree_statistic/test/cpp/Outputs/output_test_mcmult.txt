@@ -1,0 +1,127 @@
+Pointer to a MultinomialCompoundDiscreteParametric
+COMPOUND_MULTINOMIAL_DISTRIBUTION ;  4 VARIABLES
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+4 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.5   0.25   0.125   0.125    ; 
+VARIABLE: 0
+CATEGORICAL   INF_BOUND : 0   SUP_BOUND : 10   PROBABILITY : 0.5
+mean: 2   variance: 1.5   standard deviation: 1.22474
+coefficient of skewness: 2.23515   coefficient of kurtosis: 4.09393
+
+VARIABLE: 1
+CATEGORICAL   INF_BOUND : 0   SUP_BOUND : 10   PROBABILITY : 0.25
+mean: 1   variance: 0.875   standard deviation: 0.935414
+coefficient of skewness: 2.74594   coefficient of kurtosis: 6.21508
+
+VARIABLE: 2
+CATEGORICAL   INF_BOUND : 0   SUP_BOUND : 10   PROBABILITY : 0.125
+mean: 0.5   variance: 0.46875   standard deviation: 0.684653
+coefficient of skewness: 4.81193   coefficient of kurtosis: 13.4749
+
+VARIABLE: 3
+CATEGORICAL   INF_BOUND : 0   SUP_BOUND : 10   PROBABILITY : 0.125
+mean: 0.5   variance: 0.46875   standard deviation: 0.684653
+coefficient of skewness: 4.81193   coefficient of kurtosis: 13.4749
+
+COMPOUNDING_DISTRIBUTION: 
+BINOMIAL   INF_BOUND : 2   SUP_BOUND : 10   PROBABILITY : 0.5
+ 0           0
+ 1           0
+ 2  0.00390625
+ 3     0.03125
+ 4    0.109375
+ 5     0.21875
+ 6    0.273438
+ 7     0.21875
+ 8    0.109375
+ 9     0.03125
+10  0.00390625
+mean: 6   variance: 2   standard deviation: 1.41421
+Copy pointer into a MultivariateDistribution
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+4 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.5   0.25   0.125   0.125    ; 
+VARIABLE: 0
+CATEGORICAL   INF_BOUND : 0   SUP_BOUND : 10   PROBABILITY : 0.5
+mean: 2   variance: 1.5   standard deviation: 1.22474
+coefficient of skewness: 2.23515   coefficient of kurtosis: 4.09393
+
+VARIABLE: 1
+CATEGORICAL   INF_BOUND : 0   SUP_BOUND : 10   PROBABILITY : 0.25
+mean: 1   variance: 0.875   standard deviation: 0.935414
+coefficient of skewness: 2.74594   coefficient of kurtosis: 6.21508
+
+VARIABLE: 2
+CATEGORICAL   INF_BOUND : 0   SUP_BOUND : 10   PROBABILITY : 0.125
+mean: 0.5   variance: 0.46875   standard deviation: 0.684653
+coefficient of skewness: 4.81193   coefficient of kurtosis: 13.4749
+
+VARIABLE: 3
+CATEGORICAL   INF_BOUND : 0   SUP_BOUND : 10   PROBABILITY : 0.125
+mean: 0.5   variance: 0.46875   standard deviation: 0.684653
+coefficient of skewness: 4.81193   coefficient of kurtosis: 13.4749
+
+COMPOUNDING_DISTRIBUTION: 
+BINOMIAL   INF_BOUND : 2   SUP_BOUND : 10   PROBABILITY : 0.5
+ 0           0
+ 1           0
+ 2  0.00390625
+ 3     0.03125
+ 4    0.109375
+ 5     0.21875
+ 6    0.273438
+ 7     0.21875
+ 8    0.109375
+ 9     0.03125
+10  0.00390625
+mean: 6   variance: 2   standard deviation: 1.41421
+simulation: 
+3   3   1   0    ; (0.00747681)
+3   2   2   1    ; (0.0028038)
+3   1   1   0    ; (0.0170898)
+3   3   0   0    ; (0.0106812)
+4   0   1   1    ; (0.00801086)
+1   0   2   0    ; (0.000732422)
+2   1   0   2    ; (0.00640869)
+5   5   0   0    ; (3.00407e-05)
+4   2   0   1    ; (0.0112152)
+3   2   2   1    ; (0.0028038)
+Histogram: 
+Number of different values: 259
+Number of elements: 1000
+Offset: 0
+Sums : 2948 1540 790 766 
+Marginals: 
+
+sample size: 1000
+mean: 2.948   variance: 1.99529   standard deviation: 1.41255
+offset : 0   maximum : 277
+frequencies (9 values) : 30 111 255 277 196 83 41 5 2 
+
+sample size: 1000
+mean: 1.54   variance: 1.21361   standard deviation: 1.10164
+offset : 0   maximum : 349
+frequencies (6 values) : 174 349 298 134 32 13 
+
+sample size: 1000
+mean: 0.79   variance: 0.748649   standard deviation: 0.865245
+offset : 0   maximum : 446
+frequencies (6 values) : 446 366 146 37 4 1 
+
+sample size: 1000
+mean: 0.766   variance: 0.751996   standard deviation: 0.867177
+offset : 0   maximum : 464
+frequencies (5 values) : 464 355 139 35 7 
+Estimate distribution: 
+COMPOUND_MULTINOMIAL_DISTRIBUTION ;  4 VARIABLES
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+4 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.487756   0.254798   0.130708   0.126737    ; 
+COMPOUNDING_DISTRIBUTION: 
+BINOMIAL   INF_BOUND : 2   SUP_BOUND : 10   PROBABILITY : 0.5055
+Read compound multinomial from a file: 
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+4 VARIABLES
+COMPOUND_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PROBABILITY : 0.487756   0.254798   0.130708   0.126737    ; 
+COMPOUNDING_DISTRIBUTION: 
+BINOMIAL   INF_BOUND : 2   SUP_BOUND : 10   PROBABILITY : 0.5055

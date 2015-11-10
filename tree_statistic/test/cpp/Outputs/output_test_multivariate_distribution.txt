@@ -1,0 +1,206 @@
+Empty DiscreteMultivariateDistribution: 
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+0 VARIABLES
+
+ PROBABILITY
+
+IID_MULTIVARIATE_DISCRETE_DISTRIBUTION : BINOMIAL ;  4 VARIABLES
+Ascii write (not exhaustive): 
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+4 VARIABLES
+IID_MULTIVARIATE_DISCRETE_DISTRIBUTION
+BINOMIAL   INF_BOUND : 2   SUP_BOUND : 3   PROBABILITY : 0.3
+mean: 2.3   variance: 0.21   standard deviation: 0.458258
+Ascii write (exhaustive): 
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+4 VARIABLES
+IID_MULTIVARIATE_DISCRETE_DISTRIBUTION
+BINOMIAL   INF_BOUND : 2   SUP_BOUND : 3   PROBABILITY : 0.3
+mean: 2.3   variance: 0.21   standard deviation: 0.458258
+coefficient of skewness: 0.872872   coefficient of kurtosis: -1.2381
+Read IidDiscreteMultivariateParametric from file: 
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+4 VARIABLES
+IID_MULTIVARIATE_DISCRETE_DISTRIBUTION
+BINOMIAL   INF_BOUND : 2   SUP_BOUND : 3   PROBABILITY : 0.3
+mean: 2.3   variance: 0.21   standard deviation: 0.458258
+simulation: 
+3   2   3   3    ; (0.0189)
+3   2   2   3    ; (0.0441)
+2   2   2   2    ; (0.2401)
+2   2   3   3    ; (0.0441)
+2   3   2   2    ; (0.1029)
+2   2   2   3    ; (0.1029)
+2   2   2   2    ; (0.2401)
+3   2   2   3    ; (0.0441)
+2   2   2   2    ; (0.2401)
+2   3   2   3    ; (0.0441)
+Histogram: 
+Number of different values: 7
+4 VARIABLES
+
+VARIABLE 0: 
+sample size: 10
+mean: 2.3   variance: 0.233333   standard deviation: 0.483046
+VARIABLE 1: 
+sample size: 10
+mean: 2.2   variance: 0.177778   standard deviation: 0.421637
+VARIABLE 2: 
+sample size: 10
+mean: 2.2   variance: 0.177778   standard deviation: 0.421637
+VARIABLE 3: 
+sample size: 10
+mean: 2.6   variance: 0.266667   standard deviation: 0.516398
+
+offset : 2   maximum : 3
+frequencies (2 values) : 
+2   2   2   2    ; : 3
+2   3   2   2    ; : 1
+2   2   2   3    ; : 1
+3   2   2   3    ; : 2
+2   3   2   3    ; : 1
+2   2   3   3    ; : 1
+3   2   3   3    ; : 1
+Elements of histogram: 
+2   2   2   2    ; : 3
+2   3   2   2    ; : 1
+2   2   2   3    ; : 1
+3   2   2   3    ; : 2
+2   3   2   3    ; : 1
+2   2   3   3    ; : 1
+3   2   3   3    ; : 1
+Frequency for element 1   1   1   1    ; : 0
+Frequency for element 3   3   3   3    ; : 0
+NEGATIVE_MULTINOMIAL_DISTRIBUTION ;  4 VARIABLES
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+4 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PARAMETER : 13    ;    PROBABILITY : 0.8   0.8   0.8   0.8    ; 
+VARIABLE: 0
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 13   PROBABILITY : 0.5
+mean: 12.9812   variance: 25.5857   standard deviation: 5.05823
+coefficient of skewness: 0.535638   coefficient of kurtosis: 0.256085
+
+VARIABLE: 1
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 13   PROBABILITY : 0.5
+mean: 12.9812   variance: 25.5857   standard deviation: 5.05823
+coefficient of skewness: 0.535638   coefficient of kurtosis: 0.256085
+
+VARIABLE: 2
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 13   PROBABILITY : 0.5
+mean: 12.9812   variance: 25.5857   standard deviation: 5.05823
+coefficient of skewness: 0.535638   coefficient of kurtosis: 0.256085
+
+VARIABLE: 3
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 13   PROBABILITY : 0.5
+mean: 12.9812   variance: 25.5857   standard deviation: 5.05823
+coefficient of skewness: 0.535638   coefficient of kurtosis: 0.256085
+
+2   2   2   2    ;  : 6.65729e-07
+2   2   2   3    ;  : 9.32021e-07
+2   2   3   2    ;  : 9.32021e-07
+2   2   3   3    ;  : 1.36696e-06
+2   3   2   2    ;  : 9.32021e-07
+2   3   2   3    ;  : 1.36696e-06
+2   3   3   2    ;  : 1.36696e-06
+2   3   3   3    ;  : 2.09601e-06
+3   2   2   2    ;  : 9.32021e-07
+3   2   2   3    ;  : 1.36696e-06
+cumul. prob. ( 1000): 0.00727827
+simulation: 
+13   8   14   12    ; (3.18376e-05)
+9   10   13   13    ; (4.77595e-05)
+9   18   13   10    ; (1.15425e-05)
+13   14   18   13    ; (2.72827e-05)
+6   13   12   7    ; (1.32095e-05)
+19   18   16   17    ; (1.65598e-05)
+25   21   19   22    ; (2.27937e-06)
+21   17   11   7    ; (8.35972e-07)
+21   19   16   22    ; (5.25417e-06)
+14   10   13   19    ; (1.27539e-05)
+simulation: 
+Log likelihood of true parameter: -22861.4
+Histogram: 
+Number of different values: 1966
+Number of elements: 2000
+Offset: 0
+Sums - offset: 26416 26044 26077 25862 
+Marginals: 
+
+sample size: 2000
+mean: 13.208   variance: 24.3579   standard deviation: 4.93537
+offset : 1   maximum : 167
+frequencies (34 values) : 0 1 6 15 22 34 61 88 116 141 157 154 143 167 151 138 126 111 83 65 49 48 41 28 23 9 10 3 2 1 4 1 0 2 
+
+sample size: 2000
+mean: 13.022   variance: 25.7544   standard deviation: 5.07488
+offset : 2   maximum : 168
+frequencies (43 values) : 0 0 9 9 26 45 64 92 121 144 160 168 164 168 147 125 107 90 83 69 49 44 25 21 15 17 12 7 4 6 4 2 1 1 0 0 0 0 0 0 0 0 1 
+
+sample size: 2000
+mean: 13.0385   variance: 25.8169   standard deviation: 5.08104
+offset : 0   maximum : 168
+frequencies (37 values) : 1 1 5 11 18 41 81 105 132 128 155 156 168 155 133 130 120 88 79 62 71 34 40 26 14 13 12 8 2 3 3 1 0 2 0 1 1 
+
+sample size: 2000
+mean: 12.931   variance: 25.3099   standard deviation: 5.03089
+offset : 2   maximum : 176
+frequencies (34 values) : 0 0 6 11 29 45 66 100 129 132 165 166 176 152 159 113 103 97 80 56 55 42 33 25 15 15 10 3 4 3 2 2 4 2 
+Estimate distribution: 
+NEGATIVE_MULTINOMIAL_DISTRIBUTION ;  4 VARIABLES
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+4 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PARAMETER : 12.5286    ;    PROBABILITY : 0.795946   0.79882   0.798565   0.800226    ; 
+VARIABLE: 0
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 12.5286   PROBABILITY : 0.4868
+mean: 13.1905   variance: 26.7332   standard deviation: 5.17041
+coefficient of skewness: 0.547262   coefficient of kurtosis: 0.282187
+
+VARIABLE: 1
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 12.5286   PROBABILITY : 0.490344
+mean: 13.0006   variance: 26.0862   standard deviation: 5.10747
+coefficient of skewness: 0.539664   coefficient of kurtosis: 0.251223
+
+VARIABLE: 2
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 12.5286   PROBABILITY : 0.490028
+mean: 13.0169   variance: 26.1309   standard deviation: 5.11184
+coefficient of skewness: 0.539074   coefficient of kurtosis: 0.249176
+
+VARIABLE: 3
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 12.5286   PROBABILITY : 0.492097
+mean: 12.9112   variance: 25.8396   standard deviation: 5.08326
+coefficient of skewness: 0.54287   coefficient of kurtosis: 0.262398
+
+Log likelihood: -22859.6
+Likelihood equation value: -15.2959
+Empirical means: 
+13.208   13.022   13.0385   12.931    ; 
+
+Estimate distribution from vectors: 
+NEGATIVE_MULTINOMIAL_DISTRIBUTION ;  4 VARIABLES
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+4 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PARAMETER : 13.0562    ;    PROBABILITY : 0.798896   0.80168   0.799888   0.800327    ; 
+VARIABLE: 0
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 13.0562   PROBABILITY : 0.499611
+mean: 13.0567   variance: 25.7385   standard deviation: 5.07331
+coefficient of skewness: 0.532461   coefficient of kurtosis: 0.247225
+
+VARIABLE: 1
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 13.0562   PROBABILITY : 0.503096
+mean: 12.8785   variance: 25.2567   standard deviation: 5.0256
+coefficient of skewness: 0.538539   coefficient of kurtosis: 0.268475
+
+VARIABLE: 2
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 13.0562   PROBABILITY : 0.500847
+mean: 12.9932   variance: 25.567   standard deviation: 5.05638
+coefficient of skewness: 0.534666   coefficient of kurtosis: 0.254886
+
+VARIABLE: 3
+NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 13.0562   PROBABILITY : 0.501395
+mean: 12.9652   variance: 25.4911   standard deviation: 5.04888
+coefficient of skewness: 0.535626   coefficient of kurtosis: 0.258241
+
+Read DiscreteMultivariateParametric from file: 
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+4 VARIABLES
+NEGATIVE_MULTINOMIAL_DISTRIBUTION   INF_BOUND : 0    ; PARAMETER : 12.5286    ;    PROBABILITY : 0.795946   0.79882   0.798565   0.800226    ; 

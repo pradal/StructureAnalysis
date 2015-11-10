@@ -1,0 +1,90 @@
+MULTINOMIAL_DISTRIBUTION ;  4 VARIABLES
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+4 VARIABLES
+MULTINOMIAL_DISTRIBUTION   INF_BOUND : 2    ; SUP_BOUND : 18   18   18   18    ; PARAMETER : 24    ;    PROBABILITY : 0.645161   0.16129   0.129032   0.0645161    ; 
+VARIABLE: 0
+BINOMIAL   INF_BOUND : 2   SUP_BOUND : 18   PROBABILITY : 0.645161
+mean: 12.3226   variance: 3.66285   standard deviation: 1.91386
+coefficient of skewness: -0.151695   coefficient of kurtosis: -0.101989
+
+VARIABLE: 1
+BINOMIAL   INF_BOUND : 2   SUP_BOUND : 18   PROBABILITY : 0.16129
+mean: 4.58065   variance: 2.16441   standard deviation: 1.47119
+coefficient of skewness: 0.460455   coefficient of kurtosis: 0.0870192
+
+VARIABLE: 2
+BINOMIAL   INF_BOUND : 2   SUP_BOUND : 18   PROBABILITY : 0.129032
+mean: 4.06452   variance: 1.79813   standard deviation: 1.34094
+coefficient of skewness: 0.553294   coefficient of kurtosis: 0.181134
+
+VARIABLE: 3
+BINOMIAL   INF_BOUND : 2   SUP_BOUND : 18   PROBABILITY : 0.0645161
+mean: 3.03226   variance: 0.965661   standard deviation: 0.98268
+coefficient of skewness: 0.886318   coefficient of kurtosis: 0.66056
+
+simulation: 
+14   4   4   2    ; (0.0245955)
+14   5   2   3    ; (0.0102481)
+12   6   3   3    ; (0.0169094)
+13   4   4   3    ; (0.0295146)
+12   5   5   2    ; (0.0180367)
+15   4   3   2    ; (0.0189196)
+10   6   3   5    ; (0.00253641)
+11   4   6   3    ; (0.010822)
+10   5   4   5    ; (0.00405826)
+10   10   2   2    ; (0.000176926)
+Log likelihood of true parameter: -14242.9
+Histogram: 
+Number of different values: 216
+Number of elements: 3000
+Offset: 2
+Sums - offset: 30912 7733 6168 3187 
+Marginals: 
+
+sample size: 3000
+mean: 12.304   variance: 3.60412   standard deviation: 1.89845
+offset : 6   maximum : 610
+frequencies (19 values) : 0 0 0 0 0 0 4 16 43 148 309 474 610 594 429 254 88 28 3 
+
+sample size: 3000
+mean: 4.57767   variance: 2.18803   standard deviation: 1.4792
+offset : 2   maximum : 767
+frequencies (13 values) : 0 0 199 541 767 741 455 198 75 19 4 0 1 
+
+sample size: 3000
+mean: 4.056   variance: 1.81347   standard deviation: 1.34665
+offset : 2   maximum : 869
+frequencies (11 values) : 0 0 340 777 869 587 284 108 30 4 1 
+
+sample size: 3000
+mean: 3.06233   variance: 1.00745   standard deviation: 1.00372
+offset : 2   maximum : 1209
+frequencies (11 values) : 0 0 975 1209 547 208 50 9 0 1 1 
+Estimate distribution: 
+MULTINOMIAL_DISTRIBUTION ;  4 VARIABLES
+DISCRETE_MULTIVARIATE_DISTRIBUTION
+4 VARIABLES
+MULTINOMIAL_DISTRIBUTION   INF_BOUND : 2    ; SUP_BOUND : 18   18   18   18    ; PARAMETER : 24    ;    PROBABILITY : 0.644   0.161104   0.1285   0.0663958    ; 
+VARIABLE: 0
+BINOMIAL   INF_BOUND : 2   SUP_BOUND : 18   PROBABILITY : 0.644
+mean: 12.304   variance: 3.66822   standard deviation: 1.91526
+coefficient of skewness: -0.150371   coefficient of kurtosis: -0.102389
+
+VARIABLE: 1
+BINOMIAL   INF_BOUND : 2   SUP_BOUND : 18   PROBABILITY : 0.161104
+mean: 4.57767   variance: 2.16239   standard deviation: 1.47051
+coefficient of skewness: 0.460923   coefficient of kurtosis: 0.0874505
+
+VARIABLE: 2
+BINOMIAL   INF_BOUND : 2   SUP_BOUND : 18   PROBABILITY : 0.1285
+mean: 4.056   variance: 1.7918   standard deviation: 1.33858
+coefficient of skewness: 0.555065   coefficient of kurtosis: 0.183097
+
+VARIABLE: 3
+BINOMIAL   INF_BOUND : 2   SUP_BOUND : 18   PROBABILITY : 0.0663958
+mean: 3.06233   variance: 0.991799   standard deviation: 0.995891
+coefficient of skewness: 0.870786   coefficient of kurtosis: 0.633269
+
+Log likelihood of true parameter: -14271.6
+Histogram: 
+Number of different values: 196

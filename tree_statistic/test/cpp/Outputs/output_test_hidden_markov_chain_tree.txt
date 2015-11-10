@@ -15,7 +15,7 @@ recurrent class: states 0 1 2
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 1
@@ -46,152 +46,7 @@ _    0.7  0.8
 0.7  _    0.1  
 0.8  0.1  _    
 
-Markovian sequences: 
-1 VARIABLE
 
-VARIABLE 1 : INT   (minimum value: 0, maximum value: 4)
-
-marginal frequency distribution - sample size: 510
-mean: 1.35686   variance: 2.17495   standard deviation: 1.47477
-
-   | frequency
-0  216
-1  107
-2   44
-3   75
-4   68
-
-time up to the first occurrence of value 0 frequency distribution - sample size: 10
-mean: 1   variance: 1.33333   standard deviation: 1.1547
-
-time up to the first occurrence of value 1 frequency distribution - sample size: 10
-mean: 3.6   variance: 6.71111   standard deviation: 2.59058
-
-time up to the first occurrence of value 2 frequency distribution - sample size: 10
-mean: 8.6   variance: 78.0444   standard deviation: 8.83428
-
-time up to the first occurrence of value 3 frequency distribution - sample size: 10
-mean: 8   variance: 44.4444   standard deviation: 6.66667
-
-time up to the first occurrence of value 4 frequency distribution - sample size: 10
-mean: 3.8   variance: 14.4   standard deviation: 3.79473
-
-value 0 recurrence time frequency distribution - sample size: 206
-mean: 2.32524   variance: 3.00102   standard deviation: 1.73234
-
-value 1 recurrence time frequency distribution - sample size: 97
-mean: 4.34021   variance: 13.956   standard deviation: 3.73577
-
-value 2 recurrence time frequency distribution - sample size: 34
-mean: 8.14706   variance: 50.3111   standard deviation: 7.09303
-
-value 3 recurrence time frequency distribution - sample size: 65
-mean: 5.12308   variance: 21.3909   standard deviation: 4.62503
-
-value 4 recurrence time frequency distribution - sample size: 58
-mean: 7.13793   variance: 44.542   standard deviation: 6.67398
-
-value 0 sojourn time frequency distribution - sample size: 127
-mean: 1.61417   variance: 0.984877   standard deviation: 0.99241
-
-final run - value 0 sojourn time frequency distribution - sample size: 4
-mean: 2.75   variance: 2.91667   standard deviation: 1.70783
-
-value 1 sojourn time frequency distribution - sample size: 95
-mean: 1.11579   variance: 0.124748   standard deviation: 0.353197
-
-final run - value 1 sojourn time frequency distribution - sample size: 1
-mean: 1   variance: 0   standard deviation: 0
-
-value 2 sojourn time frequency distribution - sample size: 40
-mean: 1.075   variance: 0.0711538   standard deviation: 0.266747
-
-final run - value 2 sojourn time frequency distribution - sample size: 1
-mean: 1   variance: 0   standard deviation: 0
-
-value 3 sojourn time frequency distribution - sample size: 64
-mean: 1.15625   variance: 0.197421   standard deviation: 0.44432
-
-final run - value 3 sojourn time frequency distribution - sample size: 1
-mean: 1   variance: 0   standard deviation: 0
-
-value 4 sojourn time frequency distribution - sample size: 61
-mean: 1.06557   variance: 0.0622951   standard deviation: 0.24959
-
-final run - value 4 sojourn time frequency distribution - sample size: 3
-mean: 1   variance: 0   standard deviation: 0
-
-number of runs of value 0 per sequence frequency distribution - sample size: 10
-mean: 13.1   variance: 2.54444   standard deviation: 1.59513
-coefficient of skewness: -0.81717   coefficient of kurtosis: -0.611424
-
-number of runs of value 1 per sequence frequency distribution - sample size: 10
-mean: 9.6   variance: 10.4889   standard deviation: 3.23866
-coefficient of skewness: 0.302228   coefficient of kurtosis: -1.20291
-
-number of runs of value 2 per sequence frequency distribution - sample size: 10
-mean: 4.1   variance: 6.98889   standard deviation: 2.64365
-coefficient of skewness: 0.226418   coefficient of kurtosis: -1.637
-
-number of runs of value 3 per sequence frequency distribution - sample size: 10
-mean: 6.5   variance: 4.94444   standard deviation: 2.22361
-coefficient of skewness: 0.265284   coefficient of kurtosis: -1.86548
-
-number of runs of value 4 per sequence frequency distribution - sample size: 10
-mean: 6.4   variance: 6.26667   standard deviation: 2.50333
-coefficient of skewness: 0.758564   coefficient of kurtosis: -0.763377
-
-number of occurrences of value 0 per sequence frequency distribution - sample size: 10
-mean: 21.6   variance: 23.3778   standard deviation: 4.83506
-coefficient of skewness: -0.460633   coefficient of kurtosis: -1.22677
-
-number of occurrences of value 1 per sequence frequency distribution - sample size: 10
-mean: 10.7   variance: 9.78889   standard deviation: 3.12872
-coefficient of skewness: 0.102307   coefficient of kurtosis: -1.07002
-
-number of occurrences of value 2 per sequence frequency distribution - sample size: 10
-mean: 4.4   variance: 7.37778   standard deviation: 2.71621
-coefficient of skewness: 0.219566   coefficient of kurtosis: -1.72355
-
-number of occurrences of value 3 per sequence frequency distribution - sample size: 10
-mean: 7.5   variance: 3.61111   standard deviation: 1.90029
-coefficient of skewness: 0.182158   coefficient of kurtosis: -1.74213
-
-number of occurrences of value 4 per sequence frequency distribution - sample size: 10
-mean: 6.8   variance: 7.28889   standard deviation: 2.69979
-coefficient of skewness: 0.475985   coefficient of kurtosis: -1.10062
-
-sequence length frequency distribution - sample size: 10
-mean: 51   variance: 0   standard deviation: 0
-
-cumulated length: 510
-
-Plot of the Markovian Sequences into homedir:
-
-Plot of the Trees into homedir:
-
-Sequences: 
-
-1 VARIABLE
-
-VARIABLE 1 : INT   (minimum value: 0, maximum value: 4)
-
-marginal frequency distribution - sample size: 510
-mean: 1.35686   variance: 2.17495   standard deviation: 1.47477
-
-   | frequency
-0  216
-1  107
-2   44
-3   75
-4   68
-
-sequence length frequency distribution - sample size: 10
-mean: 51   variance: 0   standard deviation: 0
-
-cumulated length: 510
-
-Plot of the Sequences into homedir:
 Initialization HMT : 
 HIDDEN_MARKOV_INDEPENDENT_OUT_TREE
 
@@ -209,7 +64,7 @@ recurrent class: states 0 1 2
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 1
@@ -311,7 +166,7 @@ coefficient of skewness: 0.266329   coefficient of kurtosis: -0.122295
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 1
@@ -701,7 +556,7 @@ number of occurrences of state 2 per size 51 tree distribution
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 1
@@ -1025,7 +880,7 @@ coefficient of skewness: -0.741865   coefficient of kurtosis: -1.31029
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 1
@@ -1050,6 +905,27 @@ observation probability matrix
 0  1           0           0           0           0           
 1  0.210654    0.163215    0.21955     0.274483    0.132098    
 2  0.132477    0.46938     0.00423288  0.130751    0.263159    
+
+theoretical weights: 0.300636 0.386996 0.312367
+
+log-likelihood: -741.254   (normalized: -1.45344)
+maximum possible log-likelihood: -741.254   (information: -1.45344)
+deviance: 2.73537e-06
+
+chi-square test (4 degrees of freedom)
+chi-square value: 2.73537e-06   critical probability: 1
+reference chi-square value: 9.48773   reference critical probability: 0.05
+
+restoration weights: 0.423529 0.264706 0.311765
+
+log-likelihood: -752.308   (normalized: -1.47511)
+maximum possible log-likelihood: -741.254   (information: -1.45344)
+deviance: 22.1067
+
+chi-square test (4 degrees of freedom)
+chi-square value: 22.7644   critical probability: 0.000141112
+reference chi-square value: 9.48773   reference critical probability: 0.05
+reference chi-square value: 13.2767   reference critical probability: 0.01
 
 time up to the first occurrence of output 0 distribution
 mean: 1.08907   variance: 2.59266   standard deviation: 1.61017
@@ -1249,7 +1125,7 @@ _         0.789346  0.867523
 sequence length frequency distribution - sample size: 10
 mean: 51   variance: 0   standard deviation: 0
 
-cumulated length: 510
+cumulative length: 510
 
 information of the sequences in the iid case: -741.254 (-1.45344)
 
@@ -1335,6 +1211,8 @@ sum of marginal entropies: 28.8002 (0.564709)
 
 number of state sequences: 4.38244e+17
 
+ERROR: 35 | 1 2
+
 maximum posterior state probabilities
 
 optimal state | variable 1 | index | state 0 | state 1 | state 2
@@ -1373,7 +1251,7 @@ optimal state | variable 1 | index | state 0 | state 1 | state 2
 0  0  32  1.56226e-07  3.86949e-08  2.35555e-08  
 2  4  33  0            7.35991e-08  1.56226e-07  
 1  1  34  0            1.56226e-07  1.48785e-07  
-2  4  35  0            1.56226e-07  1.56226e-07  
+1  4  35  0            1.56226e-07  1.56226e-07  
 1  4  36  0            1.56226e-07  1.56226e-07  
 1  3  37  0            1.56226e-07  7.20361e-08  
 1  2  38  0            1.56226e-07  1.84739e-09  
@@ -1500,7 +1378,7 @@ maximum posterior state probabilities
                                                               |-(0, 0, -15.672, -17.0676, -17.5639)
                                                                 |-(2, 4, -1e+37, -16.4246, -15.672)
                                                                   |-(1, 1, -1e+37, -15.672, -15.7208)
-                                                                    |-(1, 4, -1e+37, -15.672, -15.672)
+                                                                    |-(2, 4, -1e+37, -15.672, -15.672)
                                                                       |-(1, 4, -1e+37, -15.672, -15.672)
                                                                         |-(1, 3, -1e+37, -15.672, -16.4461)
                                                                           |-(1, 2, -1e+37, -15.672, -20.1095)

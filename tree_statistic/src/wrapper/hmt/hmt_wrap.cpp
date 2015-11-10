@@ -21,6 +21,7 @@
 
 /* WRAPPER Boost.python for hmt classes */
 #include "export_hmt.h"
+#include "export_mot.h"
 
 #include "stat_tool/wrapper_util.h"
 
@@ -53,5 +54,7 @@ BOOST_PYTHON_MODULE(_hmt)
   class_hmt();
   class_hmiot();
   class_hmt_data();
+  class_mot();
+  class_mot_data();
 }
 

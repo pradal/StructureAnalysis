@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Trees with integral and floating attributes and Tree-related objects"""
-__revision__ = "$Id$"
+__revision__ = "$Id: trees.py 16312 2014-04-11 12:55:57Z jbdurand $"
 
 import string
 import openalea.stat_tool as stat_tool

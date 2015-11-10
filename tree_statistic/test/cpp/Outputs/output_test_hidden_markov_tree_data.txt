@@ -15,7 +15,7 @@ recurrent class: states 0 1 2
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 1
@@ -93,7 +93,7 @@ number of occurrences of state 2 per size 13 tree distribution
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 1
@@ -351,7 +351,7 @@ number of occurrences of state 2 per size 13 tree distribution
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 1
@@ -587,7 +587,7 @@ number of occurrences of state 2 per size 13 tree distribution
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 1
@@ -1063,7 +1063,7 @@ number of occurrences of state 2 per size 13 tree distribution
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 1
@@ -1169,10 +1169,6 @@ log-likelihood of the observed trees: -97.0198   (normalized: -1.49261)
 
 14 free parameters   2 * penalyzed log-likelihood (ICLc): -352.282
 
-chi-square test (6 degrees of freedom)
-chi-square value: 9.25883e+08   critical probability: 0
-reference chi-square value: 12.5916   reference critical probability: 0.05
-reference chi-square value: 16.8119   reference critical probability: 0.01
 
 Extract marginal distribution of variable 1:
 
@@ -1189,7 +1185,7 @@ deviance: 7.27408
 2 free parameters   2 * penalyzed log-likelihood (AIC): -198.03
 2 free parameters   2 * penalyzed log-likelihood (AICc): -198.224
 2 free parameters   2 * penalyzed log-likelihood (BIC): -202.379
-2 free parameters   2 * penalyzed log-likelihood (BICc): -202.379
+2 free parameters   2 * penalyzed log-likelihood (BICc): -194.03
 
 log-likelihood of the optimal classification: 0   (normalized: 0)
 maximum possible log-likelihood of the optimal classification: -1e+37   (information: -1.53846e+35)
@@ -1199,17 +1195,17 @@ chi-square value: 6.8451   critical probability: 0.144304
 reference chi-square value: 9.48773   reference critical probability: 0.05
 
 DISTRIBUTION 1  WEIGHT : 0.2
-NONPARAMETRIC   
+CATEGORICAL   
 
 frequency distribution 1 - sample size: 0
 
 DISTRIBUTION 2  WEIGHT : 0.292308
-NONPARAMETRIC   
+CATEGORICAL   
 
 frequency distribution 2 - sample size: 0
 
 DISTRIBUTION 3  WEIGHT : 0.507692
-NONPARAMETRIC   
+CATEGORICAL   
 
 frequency distribution 3 - sample size: 0
 
@@ -1233,7 +1229,7 @@ deviance: 10.3565
 2 free parameters   2 * penalyzed log-likelihood (AIC): -201.113
 2 free parameters   2 * penalyzed log-likelihood (AICc): -201.306
 2 free parameters   2 * penalyzed log-likelihood (BIC): -205.461
-2 free parameters   2 * penalyzed log-likelihood (BICc): -nan
+2 free parameters   2 * penalyzed log-likelihood (BICc): -197.113
 
 log-likelihood of the optimal classification: 0   (normalized: 0)
 maximum possible log-likelihood of the optimal classification: -1e+37   (information: -1.53846e+35)
@@ -1244,17 +1240,17 @@ reference chi-square value: 9.48773   reference critical probability: 0.05
 reference chi-square value: 13.2767   reference critical probability: 0.01
 
 DISTRIBUTION 1  WEIGHT : 0.415385
-NONPARAMETRIC   
+CATEGORICAL   
 
 frequency distribution 1 - sample size: 0
 
 DISTRIBUTION 2  WEIGHT : 0
-NONPARAMETRIC   
+CATEGORICAL   
 
 frequency distribution 2 - sample size: 0
 
 DISTRIBUTION 3  WEIGHT : 0.584615
-NONPARAMETRIC   
+CATEGORICAL   
 
 frequency distribution 3 - sample size: 0
 
@@ -1309,7 +1305,7 @@ number of occurrences of state 2 per size 13 tree distribution
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 1
@@ -1500,8 +1496,6 @@ log-likelihood of the observed trees: -97.0198   (normalized: -1.49261)
 
 14 free parameters   2 * penalyzed log-likelihood (ICLc): -nan
 
-Plot of the augmented HiddenMarkovTreeData:
-
 Plain HiddenMarkovTreeData:
 
 3 STATES
@@ -1548,7 +1542,7 @@ number of occurrences of state 2 per size 13 tree distribution
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 1
@@ -1740,7 +1734,7 @@ log-likelihood of the observed trees: -90.8011   (normalized: -1.39694)
 14 free parameters   2 * penalyzed log-likelihood (ICLc): -317.94
 
 chi-square test (6 degrees of freedom)
-chi-square value: 9.69473e+08   critical probability: 0
+chi-square value: 9.72638e+07   critical probability: 0
 reference chi-square value: 12.5916   reference critical probability: 0.05
 reference chi-square value: 16.8119   reference critical probability: 0.01
 
@@ -1748,7 +1742,7 @@ Extract an observation distribution from plain HiddenMarkovTreeData:
 *** ERROR : state trees not in the data
 
 Extract a observation distribution from augmented HiddenMarkovTreeData:
-NONPARAMETRIC   
+CATEGORICAL   
 mean absolute deviation: -1
 
 frequency distribution - sample size: 27
@@ -1764,7 +1758,7 @@ Extract a characteristic distribution (zones) from plain HiddenMarkovTreeData:
 *** ERROR : state trees not in the data
 
 Extract a characteristic distribution (zones) from augmented HiddenMarkovTreeData:
-NONPARAMETRIC   
+CATEGORICAL   
 mean absolute deviation: -1
 
 frequency distribution - sample size: 5
@@ -1796,7 +1790,7 @@ recurrent class: states 0 1
 
 2 OUTPUT_PROCESSES
 
-OUTPUT_PROCESS 1 : PARAMETRIC
+OUTPUT_PROCESS 1 : DISCRETE_PARAMETRIC
 
 STATE 0 OBSERVATION_DISTRIBUTION
 BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.1
@@ -1810,7 +1804,7 @@ distances between observation distributions for consecutive states
 _  1  
 1  _  
 
-OUTPUT_PROCESS 2 : PARAMETRIC
+OUTPUT_PROCESS 2 : DISCRETE_PARAMETRIC
 
 STATE 0 OBSERVATION_DISTRIBUTION
 BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.3
@@ -1860,7 +1854,7 @@ number of occurrences of state 1 per size 13 tree distribution
 
 2 OUTPUT_PROCESSES
 
-OUTPUT_PROCESS 1 : PARAMETRIC
+OUTPUT_PROCESS 1 : DISCRETE_PARAMETRIC
 
 STATE 0 OBSERVATION_DISTRIBUTION
 BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.1
@@ -1880,7 +1874,7 @@ distances between observation distributions for consecutive states
 _      1e+37  
 1e+37  _      
 
-OUTPUT_PROCESS 2 : PARAMETRIC
+OUTPUT_PROCESS 2 : DISCRETE_PARAMETRIC
 
 STATE 0 OBSERVATION_DISTRIBUTION
 BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.3
@@ -1913,17 +1907,17 @@ state tree entropy: 2.22045e-16   (normalized: 3.41607e-18)
 
 log-likelihood of the observed trees: -521.89   (normalized: -8.02907)
 
-14 free parameters   2 * penalyzed log-likelihood (AIC): -1071.78
+10 free parameters   2 * penalyzed log-likelihood (AIC): -1063.78
 
-14 free parameters   2 * penalyzed log-likelihood (AICc): -1080.18
+10 free parameters   2 * penalyzed log-likelihood (AICc): -1067.85
 
-14 free parameters   2 * penalyzed log-likelihood (BIC): -1102.22
+10 free parameters   2 * penalyzed log-likelihood (BIC): -1085.52
 
-14 free parameters   2 * penalyzed log-likelihood (BICc): -1043.78
+10 free parameters   2 * penalyzed log-likelihood (BICc): -1043.78
 
-14 free parameters   2 * penalyzed log-likelihood (ICL): -1102.22
+10 free parameters   2 * penalyzed log-likelihood (ICL): -1085.52
 
-14 free parameters   2 * penalyzed log-likelihood (ICLc): -1043.78
+10 free parameters   2 * penalyzed log-likelihood (ICLc): -1043.78
 
 chi-square test
 chi-square value: 1e+37   critical probability: -1
@@ -2114,7 +2108,7 @@ number of occurrences of state 1 per size 13 tree distribution
 
 2 OUTPUT_PROCESSES
 
-OUTPUT_PROCESS 1 : PARAMETRIC
+OUTPUT_PROCESS 1 : DISCRETE_PARAMETRIC
 
 STATE 0 OBSERVATION_DISTRIBUTION
 BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.1
@@ -3940,7 +3934,7 @@ distances between observation distributions for consecutive states
 _      1e+37  
 1e+37  _      
 
-OUTPUT_PROCESS 2 : PARAMETRIC
+OUTPUT_PROCESS 2 : DISCRETE_PARAMETRIC
 
 STATE 0 OBSERVATION_DISTRIBUTION
 BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.3
@@ -5795,17 +5789,17 @@ state tree entropy: 2.22045e-16   (normalized: 3.41607e-18)
 
 log-likelihood of the observed trees: -521.89   (normalized: -8.02907)
 
-14 free parameters   2 * penalyzed log-likelihood (AIC): -1071.78
+10 free parameters   2 * penalyzed log-likelihood (AIC): -1063.78
 
-14 free parameters   2 * penalyzed log-likelihood (AICc): -1080.18
+10 free parameters   2 * penalyzed log-likelihood (AICc): -1067.85
 
-14 free parameters   2 * penalyzed log-likelihood (BIC): -1102.22
+10 free parameters   2 * penalyzed log-likelihood (BIC): -1085.52
 
-14 free parameters   2 * penalyzed log-likelihood (BICc): -nan
+10 free parameters   2 * penalyzed log-likelihood (BICc): -nan
 
-14 free parameters   2 * penalyzed log-likelihood (ICL): -1102.22
+10 free parameters   2 * penalyzed log-likelihood (ICL): -1085.52
 
-14 free parameters   2 * penalyzed log-likelihood (ICLc): -nan
+10 free parameters   2 * penalyzed log-likelihood (ICLc): -nan
 iteration 1   log-likelihood of the observed trees: -521.89
 iteration 2   log-likelihood of the observed trees: -511.466
 iteration 3   log-likelihood of the observed trees: -511.466
@@ -5857,7 +5851,7 @@ number of occurrences of state 1 per size 13 tree distribution
 
 2 OUTPUT_PROCESSES
 
-OUTPUT_PROCESS 1 : PARAMETRIC
+OUTPUT_PROCESS 1 : DISCRETE_PARAMETRIC
 
 STATE 0 OBSERVATION_DISTRIBUTION
 BINOMIAL   INF_BOUND : 56   SUP_BOUND : 509   PROBABILITY : 0.0719136
@@ -5877,7 +5871,7 @@ distances between observation distributions for consecutive states
 _  1  
 1  _  
 
-OUTPUT_PROCESS 2 : PARAMETRIC
+OUTPUT_PROCESS 2 : DISCRETE_PARAMETRIC
 
 STATE 0 OBSERVATION_DISTRIBUTION
 BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.300666
@@ -5906,21 +5900,21 @@ information of the trees in the iid case: -473.346 (-7.28225)
 
 log-likelihood of the state trees: -511.466   (normalized: -7.86871)
 
-state tree entropy: 1.44329e-15   (normalized: 2.22045e-17)
+state tree entropy: 0   (normalized: 0)
 
 log-likelihood of the observed trees: -511.466   (normalized: -7.86871)
 
-14 free parameters   2 * penalyzed log-likelihood (AIC): -1050.93
+12 free parameters   2 * penalyzed log-likelihood (AIC): -1046.93
 
-14 free parameters   2 * penalyzed log-likelihood (AICc): -1059.33
+12 free parameters   2 * penalyzed log-likelihood (AICc): -1052.93
 
-14 free parameters   2 * penalyzed log-likelihood (BIC): -1081.37
+12 free parameters   2 * penalyzed log-likelihood (BIC): -1073.02
 
-14 free parameters   2 * penalyzed log-likelihood (BICc): -nan
+12 free parameters   2 * penalyzed log-likelihood (BICc): -nan
 
-14 free parameters   2 * penalyzed log-likelihood (ICL): -1081.37
+12 free parameters   2 * penalyzed log-likelihood (ICL): -1073.02
 
-14 free parameters   2 * penalyzed log-likelihood (ICLc): -nan
+12 free parameters   2 * penalyzed log-likelihood (ICLc): -nan
 Print the data with the hidden Markov tree: 
 
 2 STATES
@@ -5956,7 +5950,7 @@ number of occurrences of state 1 per size 13 tree distribution
 
 2 OUTPUT_PROCESSES
 
-OUTPUT_PROCESS 1 : PARAMETRIC
+OUTPUT_PROCESS 1 : DISCRETE_PARAMETRIC
 
 STATE 0 OBSERVATION_DISTRIBUTION
 BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.1
@@ -5976,7 +5970,7 @@ distances between observation distributions for consecutive states
 _      1e+37  
 1e+37  _      
 
-OUTPUT_PROCESS 2 : PARAMETRIC
+OUTPUT_PROCESS 2 : DISCRETE_PARAMETRIC
 
 STATE 0 OBSERVATION_DISTRIBUTION
 BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.3
@@ -6009,17 +6003,17 @@ state tree entropy: 2.22045e-16   (normalized: 3.41607e-18)
 
 log-likelihood of the observed trees: -521.89   (normalized: -8.02907)
 
-14 free parameters   2 * penalyzed log-likelihood (AIC): -1071.78
+10 free parameters   2 * penalyzed log-likelihood (AIC): -1063.78
 
-14 free parameters   2 * penalyzed log-likelihood (AICc): -1080.18
+10 free parameters   2 * penalyzed log-likelihood (AICc): -1067.85
 
-14 free parameters   2 * penalyzed log-likelihood (BIC): -1102.22
+10 free parameters   2 * penalyzed log-likelihood (BIC): -1085.52
 
-14 free parameters   2 * penalyzed log-likelihood (BICc): -1043.78
+10 free parameters   2 * penalyzed log-likelihood (BICc): -1043.78
 
-14 free parameters   2 * penalyzed log-likelihood (ICL): -1102.22
+10 free parameters   2 * penalyzed log-likelihood (ICL): -1085.52
 
-14 free parameters   2 * penalyzed log-likelihood (ICLc): -1043.78
+10 free parameters   2 * penalyzed log-likelihood (ICLc): -1043.78
 
 chi-square test
 chi-square value: 1e+37   critical probability: -1
@@ -6191,7 +6185,7 @@ coefficient of skewness: 0.9375   coefficient of kurtosis: -1.4375
 
 2 OUTPUT_PROCESSES
 
-OUTPUT_PROCESS 1 : PARAMETRIC
+OUTPUT_PROCESS 1 : DISCRETE_PARAMETRIC
 
 STATE 0 OBSERVATION_DISTRIBUTION
 BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.1
@@ -6211,7 +6205,7 @@ distances between observation distributions for consecutive states
 _      1e+37  
 1e+37  _      
 
-OUTPUT_PROCESS 2 : PARAMETRIC
+OUTPUT_PROCESS 2 : DISCRETE_PARAMETRIC
 
 STATE 0 OBSERVATION_DISTRIBUTION
 BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.3
@@ -6244,20 +6238,22 @@ state tree entropy: 2.22045e-16   (normalized: 3.41607e-18)
 
 log-likelihood of the observed trees: -521.89   (normalized: -8.02907)
 
-14 free parameters   2 * penalyzed log-likelihood (AIC): -1071.78
+10 free parameters   2 * penalyzed log-likelihood (AIC): -1063.78
 
-14 free parameters   2 * penalyzed log-likelihood (AICc): -1080.18
+10 free parameters   2 * penalyzed log-likelihood (AICc): -1067.85
 
-14 free parameters   2 * penalyzed log-likelihood (BIC): -1102.22
+10 free parameters   2 * penalyzed log-likelihood (BIC): -1085.52
 
-14 free parameters   2 * penalyzed log-likelihood (BICc): -1043.78
+10 free parameters   2 * penalyzed log-likelihood (BICc): -1043.78
 
-14 free parameters   2 * penalyzed log-likelihood (ICL): -1102.22
+10 free parameters   2 * penalyzed log-likelihood (ICL): -1085.52
 
-14 free parameters   2 * penalyzed log-likelihood (ICLc): -1043.78
+10 free parameters   2 * penalyzed log-likelihood (ICLc): -1043.78
 
-
-Plot of the augmented HiddenMarkovTreeData:
+chi-square test (2 degrees of freedom)
+chi-square value: 3.63641e+09   critical probability: 0
+reference chi-square value: 5.99146   reference critical probability: 0.05
+reference chi-square value: 9.21034   reference critical probability: 0.01
 
 Plain HiddenMarkovTreeData:
 
@@ -6294,7 +6290,7 @@ number of occurrences of state 1 per size 13 tree distribution
 
 2 OUTPUT_PROCESSES
 
-OUTPUT_PROCESS 1 : PARAMETRIC
+OUTPUT_PROCESS 1 : DISCRETE_PARAMETRIC
 
 STATE 0 OBSERVATION_DISTRIBUTION
 BINOMIAL   INF_BOUND : 56   SUP_BOUND : 509   PROBABILITY : 0.0719136
@@ -6314,7 +6310,7 @@ distances between observation distributions for consecutive states
 _  1  
 1  _  
 
-OUTPUT_PROCESS 2 : PARAMETRIC
+OUTPUT_PROCESS 2 : DISCRETE_PARAMETRIC
 
 STATE 0 OBSERVATION_DISTRIBUTION
 BINOMIAL   INF_BOUND : 0   SUP_BOUND : 900   PROBABILITY : 0.300666
@@ -6343,24 +6339,24 @@ information of the trees in the iid case: -473.346 (-7.28225)
 
 log-likelihood of the state trees: -511.466   (normalized: -7.86871)
 
-state tree entropy: 1.44329e-15   (normalized: 2.22045e-17)
+state tree entropy: 0   (normalized: 0)
 
 log-likelihood of the observed trees: -511.466   (normalized: -7.86871)
 
-14 free parameters   2 * penalyzed log-likelihood (AIC): -1050.93
+12 free parameters   2 * penalyzed log-likelihood (AIC): -1046.93
 
-14 free parameters   2 * penalyzed log-likelihood (AICc): -1059.33
+12 free parameters   2 * penalyzed log-likelihood (AICc): -1052.93
 
-14 free parameters   2 * penalyzed log-likelihood (BIC): -1081.37
+12 free parameters   2 * penalyzed log-likelihood (BIC): -1073.02
 
-14 free parameters   2 * penalyzed log-likelihood (BICc): -1022.93
+12 free parameters   2 * penalyzed log-likelihood (BICc): -1022.93
 
-14 free parameters   2 * penalyzed log-likelihood (ICL): -1081.37
+12 free parameters   2 * penalyzed log-likelihood (ICL): -1073.02
 
-14 free parameters   2 * penalyzed log-likelihood (ICLc): -1022.93
+12 free parameters   2 * penalyzed log-likelihood (ICLc): -1022.93
 
 chi-square test (2 degrees of freedom)
-chi-square value: 1.21146e+07   critical probability: 0
+chi-square value: 1.72338e+07   critical probability: 0
 reference chi-square value: 5.99146   reference critical probability: 0.05
 reference chi-square value: 9.21034   reference critical probability: 0.01
 
@@ -6368,7 +6364,7 @@ Extract an observation distribution from plain HiddenMarkovTreeData:
 *** ERROR : state trees not in the data
 
 Extract an observation distribution from augmented HiddenMarkovTreeData:
-NONPARAMETRIC   
+CATEGORICAL   
 mean: 90   variance: 81   standard deviation: 9
 coefficient of skewness: -8.88889e-39   coefficient of kurtosis: -3
 mean absolute deviation: 0   coefficient of concentration: 1
@@ -6383,7 +6379,7 @@ maximum possible log-likelihood: -113.665   (information: -2.84161)
 deviance: 37.5894
 
 chi-square test (1 degree of freedom)
-chi-square value: 3.31246e-26   critical probability: 1
+chi-square value: 5.78027e-26   critical probability: 1
 reference chi-square value: 3.84146   reference critical probability: 0.05
 
 Extract an observation distribution from augmented HiddenMarkovTreeData with a wrong state identifier:
@@ -6469,7 +6465,7 @@ coefficient of skewness: 0.9375   coefficient of kurtosis: -1.4375
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 0.615388

@@ -60,6 +60,31 @@ def test_hmt_simulate():
     assert(THMT.Tree(0).Get(7)[1] in [6, 7]), msg3
     return T, THMT
     
+def my_hmt_simulate_memory():
+    """Test for memory leaks in simulate"""
+    nb_simul = 1000 * 40 * 40
+    max_size = 2**10 + 2
+    max_depth = 11
+    inf_bound = 0
+    sup_bound = 3
+    hmt_name, H = init()
+    from openalea.tree_statistic import trees
+    distrib = stat_tool.Uniform(inf_bound, sup_bound)
+    TS = trees.TreeStructure(distrib, max_size, max_depth)
+    tv = [1., 0, 1, 2.]
+    tmp_tree = trees.Tree(tv, TS)
+    T = trees.Trees([tmp_tree])
+    assert(TS.Size() > 512)
+    import tempfile
+    fname = tempfile.mktemp()
+    import os
+    os.system("free > " + fname)
+    f = open(fname, "r")
+    s = read(f)
+    for i in range(nb_simul):
+        THMT = H.Simulate(T)
+    assert THMT
+    
 def test_extract_model():
     """Extract model part of HiddenMarkovTreeData"""
     T, THMT = test_hmt_simulate()

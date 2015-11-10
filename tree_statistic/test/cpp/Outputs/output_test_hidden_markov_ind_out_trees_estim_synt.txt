@@ -13,7 +13,7 @@ recurrent class: states 0 1
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 0.8
@@ -360,7 +360,7 @@ recurrent class: states 0 1
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 0.5
@@ -420,7 +420,7 @@ mixture of number of occurrences of state 1 per tree distributions
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 0.62039
@@ -581,7 +581,7 @@ mixture of number of occurrences of state 1 per tree distributions
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 0.650501
@@ -713,7 +713,7 @@ mixture of number of occurrences of state 1 per tree distributions
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 0.258981
@@ -850,7 +850,7 @@ mixture of number of occurrences of state 1 per tree distributions
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 0.519278
@@ -1011,7 +1011,7 @@ mixture of number of occurrences of state 1 per tree distributions
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 0.505978
@@ -1153,7 +1153,7 @@ number of occurrences of state 1 per size 9 tree distribution
 
 2 OUTPUT_PROCESSES
 
-OUTPUT_PROCESS 1 : PARAMETRIC
+OUTPUT_PROCESS 1 : DISCRETE_PARAMETRIC
 
 STATE 0 OBSERVATION_DISTRIBUTION
 NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 200.105   PROBABILITY : 0.402956
@@ -1172,7 +1172,7 @@ distances between observation distributions for consecutive states
 _          0.0610288  
 0.0610288  _          
 
-OUTPUT_PROCESS 2 : PARAMETRIC
+OUTPUT_PROCESS 2 : DISCRETE_PARAMETRIC
 
 STATE 0 OBSERVATION_DISTRIBUTION
 NEGATIVE_BINOMIAL   INF_BOUND : 0   PARAMETER : 25404.9   PROBABILITY : 0.974866
@@ -1204,17 +1204,17 @@ state tree entropy: 0.826693   (normalized: 0.0153091)
 
 log-likelihood of the observed trees: -507.71   (normalized: -9.40204)
 
-13 free parameters   2 * penalyzed log-likelihood (AIC): -1041.42
+10 free parameters   2 * penalyzed log-likelihood (AIC): -1035.42
 
-13 free parameters   2 * penalyzed log-likelihood (AICc): -1050.52
+10 free parameters   2 * penalyzed log-likelihood (AICc): -1040.54
 
-13 free parameters   2 * penalyzed log-likelihood (BIC): -1067.28
+10 free parameters   2 * penalyzed log-likelihood (BIC): -1055.31
 
-13 free parameters   2 * penalyzed log-likelihood (BICc): -nan
+10 free parameters   2 * penalyzed log-likelihood (BICc): -nan
 
-13 free parameters   2 * penalyzed log-likelihood (ICL): -1068.93
+10 free parameters   2 * penalyzed log-likelihood (ICL): -1056.96
 
-13 free parameters   2 * penalyzed log-likelihood (ICLc): -nan
+10 free parameters   2 * penalyzed log-likelihood (ICLc): -nan
 
 Testing estimation with imposed parametric distributions  and self-transitions.
 iteration 1   log-likelihood of the observed trees: -110.817
@@ -1263,7 +1263,7 @@ mixture of number of occurrences of state 1 per tree distributions
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : PARAMETRIC
+OUTPUT_PROCESS 1 : DISCRETE_PARAMETRIC
 
 STATE 0 OBSERVATION_DISTRIBUTION
 BINOMIAL   INF_BOUND : 0   SUP_BOUND : 1   PROBABILITY : 0.538071
@@ -1295,17 +1295,17 @@ state tree entropy: 2.66012   (normalized: 0.0565983)
 
 log-likelihood of the observed trees: -32.4831   (normalized: -0.69113)
 
-7 free parameters   2 * penalyzed log-likelihood (AIC): -78.9662
+5 free parameters   2 * penalyzed log-likelihood (AIC): -74.9662
 
-7 free parameters   2 * penalyzed log-likelihood (AICc): -81.838
+5 free parameters   2 * penalyzed log-likelihood (AICc): -76.4296
 
-7 free parameters   2 * penalyzed log-likelihood (BIC): -91.9173
+5 free parameters   2 * penalyzed log-likelihood (BIC): -84.217
 
-7 free parameters   2 * penalyzed log-likelihood (BICc): -nan
+5 free parameters   2 * penalyzed log-likelihood (BICc): -nan
 
-7 free parameters   2 * penalyzed log-likelihood (ICL): -97.2375
+5 free parameters   2 * penalyzed log-likelihood (ICL): -89.5372
 
-7 free parameters   2 * penalyzed log-likelihood (ICLc): -nan
+5 free parameters   2 * penalyzed log-likelihood (ICLc): -nan
 Testing estimation using SEM algorithm
 iteration 1   log-likelihood of the observed trees: -32.5739
 iteration 2   log-likelihood of the observed trees: -32.635
@@ -1349,7 +1349,7 @@ mixture of number of occurrences of state 1 per tree distributions
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 0.55
@@ -1487,7 +1487,7 @@ mixture of number of occurrences of state 1 per tree distributions
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 0.55
@@ -1625,7 +1625,7 @@ mixture of number of occurrences of state 1 per tree distributions
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 0.55
@@ -1770,7 +1770,7 @@ mixture of number of occurrences of state 1 per tree distributions
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 0.480245
@@ -1916,7 +1916,7 @@ mixture of number of occurrences of state 1 per tree distributions
 
 1 OUTPUT_PROCESS
 
-OUTPUT_PROCESS 1 : NONPARAMETRIC
+OUTPUT_PROCESS 1 : CATEGORICAL
 
 STATE 0 OBSERVATION_DISTRIBUTION
 OUTPUT 0 : 0.473955

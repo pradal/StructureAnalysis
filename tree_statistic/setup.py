@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__revision__ = "$Id$"
+__revision__ = "$Id: setup.py 12469 2012-07-06 15:36:28Z jbdurand $"
 
 import os, sys
 from os.path import join as pj
@@ -22,29 +22,31 @@ install_requires = ['vplants.aml','vplants.tree']
 # Remove egg dependencies on ubuntu
 install_requires = []
 setup_requires = install_requires + ['openalea.deploy']
-          
+
 packages=[namespace,
           namespace+".tree_statistic",
           namespace+".tree_statistic.trees",
           namespace+".tree_statistic.hmt",
           namespace+".tree_statistic.int_fl_containers",
+          namespace+".tree_statistic.mot",
+          namespace+".tree_statistic.dmdistributions",
           #namespace+".treestat_wralea",
          ]
 
 if __name__ == '__main__':
-    
+
     setup(name=name,
           version=version,
           author=authors,
           description=description,
           url=url,
           license=license,
-          
+
           # Define where to execute scons
           scons_scripts=['SConstruct'],
-          # Scons parameters  
+          # Scons parameters
           scons_parameters=scons_parameters,
-        
+
           # Packages
           namespace_packages = [namespace],
           create_namespaces = False,
@@ -70,7 +72,7 @@ if __name__ == '__main__':
           setup_requires = setup_requires,
           install_requires = install_requires,
           dependency_links = ['http://openalea.gforge.inria.fr/pi'],
-          
+
           #entry_points = {
           #  "wralea": ["tree_statistic = openalea.treestat_wralea",
           #              "macro = openalea.treestat_wralea.macro",
@@ -79,4 +81,4 @@ if __name__ == '__main__':
           #  },
           pylint_packages = ['src'+os.sep+package.replace('.', os.sep) for package in packages]
             )
-    
+

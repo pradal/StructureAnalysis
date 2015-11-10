@@ -22,9 +22,21 @@ includes += env.ALEAGlob("*.hpp")
 env.ALEAIncludes("tree_statistic", includes)
 
 
+my_debug = True
+
 if env['debug']:
-   # env.Append(CPPDEFINES= ['DEBUG'])
-   env.AppendUnique(LIBS=['efence'])
+    env.Append(CPPDEFINES= ['DEBUG'])
+
+if my_debug:   
+    env.AppendUnique(LIBS=['efence'])
+    CPPFLAGS=["-g"]
+    env.AppendUnique(CPPFLAGS=CPPFLAGS)
+    if '-DNDEBUG' in env._dict['CCFLAGS']:
+        env._dict['CCFLAGS'] = []
+    if '-DNDEBUG' in env._dict['CXXFLAGS']:
+        env._dict['CXXFLAGS'] = []
+    # print env._dict
+    
 
 # Uncomment if needed
 # CPPFLAGS=["-g"]
@@ -37,6 +49,7 @@ if env['debug']:
 # Build shared libraries
 
 #sources = env.ALEAGlob("*.cpp")
+
 sources= Split("""
 base_int_fl_containers.cpp
 int_fl_containers.cpp
@@ -45,9 +58,16 @@ generic_typed_edge_tree.cpp
 int_trees.cpp
 typed_edge_trees.cpp
 tree_labels.cpp
+multivariate_distribution.cpp
+multivariate_distribution_algorithm.cpp
+mv_histogram_tools.cpp
+univariate_conditional_distribution.cpp
+multivariate_conditional_distribution.cpp
 hidden_markov_tree.cpp
 hidden_markov_ind_out_tree.cpp
 hmt_algorithms.cpp
+markov_out_tree.cpp
+mot_algorithms.cpp
 """)
 
 

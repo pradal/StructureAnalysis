@@ -549,7 +549,7 @@ def Success1stBuild(T, Reverse=False):
             should be inversed
 
     :Returns:
-        A pair composed by a :ref:`openalea.tree_statistic.trees.etrees` instance
+        A pair composed by a :ref:`openalea.tree_statistic.trees.etrees.Tree` instance
         and by a dictionary d with correspondance between the vertices in T is returned
         (use as: d[T::Vertex] = Success1stBuild(T)::Vertex)
 
