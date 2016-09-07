@@ -5,6 +5,7 @@ try:
     from openalea.deploy.util import is_conda_env
 except ImportError:
     def is_conda_env():
+        print('Update openalea.deploy')
         return False
 
 
@@ -15,6 +16,9 @@ from openalea.deploy.metainfo import read_metainfo
 metadata = read_metainfo('metainfo.ini', verbose=True)
 for key,value in metadata.iteritems():
     exec("%s = '%s'" % (key, value))
+
+CONDA = is_conda_env()
+print("Conda DETECTED" if CONDA else "Conda NOT Detected")
 
 if not is_conda_env():
     from openalea.deploy.binary_deps import binary_deps
