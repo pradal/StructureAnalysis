@@ -15,10 +15,6 @@ metadata = read_metainfo('metainfo.ini', verbose=True)
 for key,value in metadata.iteritems():
     exec("%s = '%s'" % (key, value))
 
-CONDA = is_conda_env()
-print("Conda DETECTED" if CONDA else "Conda NOT Detected")
-print 'KEYS: ', os.environ.keys()
-
 
 if not is_conda_env():
     from openalea.deploy.binary_deps import binary_deps
@@ -102,10 +98,10 @@ else:
             author_email=authors_email,
             url=url,
             license=license,
-            platforms = platforms,
+            # platforms = platforms,
 
-            namespace_packages=['openalea'],
-            create_namespaces=True,
+            # namespace_packages=['openalea'],
+            # create_namespaces=True,
 
             # Packages
             packages=['openalea',
