@@ -10,6 +10,7 @@ def is_conda_env():
 import sys
 from setuptools import setup, find_packages
 from openalea.deploy.metainfo import read_metainfo
+from os.path import join as pj
 
 metadata = read_metainfo('metainfo.ini', verbose=True)
 for key,value in metadata.iteritems():
@@ -19,7 +20,6 @@ for key,value in metadata.iteritems():
 if not is_conda_env():
     from openalea.deploy.binary_deps import binary_deps
     from openalea.deploy.setup import *
-    from os.path import join as pj
 
     build_prefix = "build-scons"
 
@@ -108,15 +108,15 @@ else:
                       'openalea.stat_tool',
                       ],
 
-            package_dir={ "openalea.stat_tool" : pj("src","stat_tool"), '':'src'  },
-            share_dirs = { 'share' : 'share' },
+            package_dir={"openalea.stat_tool": pj("src","stat_tool"), '': 'src'},
+            share_dirs={'share': 'share'},
 
 
             # Add package platform libraries if any
             include_package_data=True,
-            package_data = {'' : ['*.pyd', '*.so', '*.dylib', '*.png', '*.hsc', '*.seq', '*.aml'],},
+            package_data={'' : ['*.pyd', '*.so', '*.dylib', '*.png', '*.hsc', '*.seq', '*.aml'],},
 
-            zip_safe = False,
+            zip_safe=False,
 
 
          )
