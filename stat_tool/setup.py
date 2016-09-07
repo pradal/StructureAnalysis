@@ -1,15 +1,13 @@
 # -*- coding: utf-8 -*-
 """setup file for stat_tool package"""
 
-try:
-    from openalea.deploy.util import is_conda_env
-except ImportError:
-    def is_conda_env():
-        print('Update openalea.deploy')
-        return False
+import os
+def is_conda_env():
+    return 'CONDA_DEFAULT_ENV' in os.environ or 'CONDA_BUILD' in os.environ
 
 
-import os, sys
+
+import sys
 from setuptools import setup, find_packages
 from openalea.deploy.metainfo import read_metainfo
 
