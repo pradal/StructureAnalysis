@@ -19,6 +19,8 @@ for key,value in metadata.iteritems():
 
 CONDA = is_conda_env()
 print("Conda DETECTED" if CONDA else "Conda NOT Detected")
+print 'KEYS: ', os.environ.keys()
+
 
 if not is_conda_env():
     from openalea.deploy.binary_deps import binary_deps
